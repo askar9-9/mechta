@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  mock-1c:
+    build:
+      context: ./mock-1C
+    container_name: mock-1c
+    ports:
+      - "9900:9900"
+    networks:
+      - order-net
+
+networks:
+  order-net:
+    driver: bridge
