@@ -11,8 +11,8 @@ func NewRouter(serv storage.StorageModule) *http.ServeMux {
 	h := NewHandler(serv)
 
 	router.HandleFunc("GET /api/v1/orders", h.GetOrders)
-	router.HandleFunc("GET /api/v1/order", h.CreateOrder)
-	router.HandleFunc("POST /api/v1/order/{id}", h.GetOrderByID)
+	router.HandleFunc("GET /api/v1/order/{id}", h.GetOrderByID)
+	router.HandleFunc("POST /api/v1/order", h.CreateOrder)
 
 	return router
 }
