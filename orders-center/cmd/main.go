@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	app "orders-center/internal/application"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+
+	app.Run()
 }
