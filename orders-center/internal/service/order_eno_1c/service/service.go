@@ -1,4 +1,5 @@
 package service
 
-type OrderENO1CService struct {
+type Service struct {
+	repo OrderENO1CRepository
 }

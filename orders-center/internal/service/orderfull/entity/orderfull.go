@@ -8,8 +8,8 @@ import (
 )
 
 type OrderFull struct {
-	Order    order.Order            `json:"order"`
-	Items    []cart.OrderItem       `json:"items"`
-	Payments []payment.OrderPayment `json:"payments"`
-	History  []history.History      `json:"history"`
+	Order   *order.Order          `json:"order"`
+	Items   []*cart.OrderItem     `json:"items"`
+	Payment *payment.OrderPayment `json:"payment"`
+	History *history.History      `json:"history"`
 }
