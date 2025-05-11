@@ -6,23 +6,29 @@ import (
 	history "orders-center/internal/domain/history/entity"
 	order "orders-center/internal/domain/order/entity"
 	payment "orders-center/internal/domain/payment/entity"
+	"orders-center/internal/service/orderfull/entity"
 )
 
-type OrderFullRepository interface {
+type ENOService interface {
+	CreateTask(ctx context.Context, item *entity.OrderFull) error
 }
 
 type CartService interface {
-	AddItemsToOrder(ctx context.Context, items []*cart.OrderItem) error
+	GetItemsForOrder(ctx context.Context, id string) ([]*cart.OrderItem, error)
+	AttachItemsToOrder(ctx context.Context, items []*cart.OrderItem) error
 }
 
 type HistoryService interface {
-	CreateOrderHistory(ctx context.Context, item *history.History) error
+	LoadOrderHistory(ctx context.Context, id string) (*history.History, error)
+	RecordOrderHistory(ctx context.Context, item *history.History) error
 }
 
 type OrderService interface {
-	CreateOrder(ctx context.Context, item *order.Order) error
+	RegisterOrder(ctx context.Context, item *order.Order) error
+	GetOrderDetails(ctx context.Context, id string) (*order.Order, error)
 }
 
 type PaymentService interface {
-	CreateOrderPayment(ctx context.Context, item *payment.OrderPayment) error
+	InitializePayment(ctx context.Context, item *payment.OrderPayment) error
+	GetPaymentInfo(ctx context.Context, id string) (*payment.OrderPayment, error)
 }

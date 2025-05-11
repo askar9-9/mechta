@@ -10,10 +10,10 @@ import (
 	"time"
 )
 
-func RunHTTP(cfg *config.Config, errs chan<- error) grace.Service {
+func RunHTTP(cfg *config.Config, svc v1.OrderService, errs chan<- error) grace.Service {
 	server := &http.Server{
 		Addr:    cfg.HTTP.Addr,
-		Handler: v1.Routes(),
+		Handler: v1.Routes(svc),
 	}
 
 	// Start the server in a goroutine

@@ -1,6 +1,8 @@
 package service
 
 import (
+	"context"
+	"orders-center/internal/domain/cart/entity"
 	"orders-center/internal/pkg/tx"
 )
 
@@ -16,5 +18,10 @@ func NewService(repo CartRepository, txManager tx.TransactionManager) *Service {
 	}
 }
 
-func (s *Service) FindItemsByOrderID() {
+func (s *Service) GetItemsForOrder(ctx context.Context, orderID string) ([]*entity.OrderItem, error) {
+	return s.repo.FindItemsByOrderID(ctx, orderID)
+}
+
+func (s *Service) AttachItemsToOrder(ctx context.Context, items []*entity.OrderItem) error {
+	return s.repo.AddItemsToOrder(ctx, items)
 }

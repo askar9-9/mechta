@@ -1,6 +1,10 @@
 package service
 
-import "orders-center/internal/pkg/tx"
+import (
+	"context"
+	"orders-center/internal/domain/payment/entity"
+	"orders-center/internal/pkg/tx"
+)
 
 type Service struct {
 	repo      PaymentRepository
@@ -12,4 +16,12 @@ func NewService(repo PaymentRepository, txManager tx.TransactionManager) *Servic
 		repo:      repo,
 		txManager: txManager,
 	}
+}
+
+func (s *Service) InitializePayment(ctx context.Context, item *entity.OrderPayment) error {
+	return nil
+}
+
+func (s *Service) GetPaymentInfo(ctx context.Context, id string) (*entity.OrderPayment, error) {
+	return nil, nil
 }
