@@ -29,6 +29,6 @@ type OrderService interface {
 }
 
 type PaymentService interface {
-	InitializePayment(ctx context.Context, item *payment.OrderPayment) error
-	GetPaymentInfo(ctx context.Context, id string) (*payment.OrderPayment, error)
+	InitializePayment(ctx context.Context, items []*payment.OrderPayment) error
+	GetPaymentInfo(ctx context.Context, id string) ([]*payment.OrderPayment, error)
 }

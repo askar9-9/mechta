@@ -18,10 +18,10 @@ func NewService(repo PaymentRepository, txManager tx.TransactionManager) *Servic
 	}
 }
 
-func (s *Service) InitializePayment(ctx context.Context, item *entity.OrderPayment) error {
+func (s *Service) InitializePayment(ctx context.Context, items []*entity.OrderPayment) error {
 	return nil
 }
 
-func (s *Service) GetPaymentInfo(ctx context.Context, id string) (*entity.OrderPayment, error) {
+func (s *Service) GetPaymentInfo(ctx context.Context, orderID string) ([]*entity.OrderPayment, error) {
 	return nil, nil
 }

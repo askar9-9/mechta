@@ -16,10 +16,10 @@ func NewRepo(db *pgxpool.Pool) *Repo {
 	}
 }
 
-func (r *Repo) GetOrderPaymentByOrderID(ctx context.Context, orderID string) (*entity.OrderPayment, error) {
+func (r *Repo) GetOrderPaymentsByOrderID(ctx context.Context, orderID string) ([]*entity.OrderPayment, error) {
 	return nil, nil
 }
 
-func (r *Repo) CreateOrderPayment(ctx context.Context, payment *entity.OrderPayment) error {
+func (r *Repo) CreateOrderPayments(ctx context.Context, payments []*entity.OrderPayment) error {
 	return nil
 }

@@ -7,6 +7,6 @@ import (
 
 // Repository interfaces
 type PaymentRepository interface {
-	GetOrderPaymentByOrderID(ctx context.Context, orderID string) (*entity.OrderPayment, error)
-	CreateOrderPayment(ctx context.Context, payment *entity.OrderPayment) error
+	GetOrderPaymentsByOrderID(ctx context.Context, orderID string) ([]*entity.OrderPayment, error)
+	CreateOrderPayments(ctx context.Context, payments []*entity.OrderPayment) error
 }
