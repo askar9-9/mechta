@@ -6,6 +6,6 @@ import (
 )
 
 type HistoryRepository interface {
-	GetHistory(ctx context.Context, id string) (*entity.History, error)
-	CreateHistory(ctx context.Context, history *entity.History) error
+	GetHistories(ctx context.Context, orderID string) ([]*entity.History, error)
+	CreateHistories(ctx context.Context, history []*entity.History) error
 }

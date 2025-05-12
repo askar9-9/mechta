@@ -12,3 +12,13 @@ var (
 	ErrUserIDRequired   = errors.New("user ID is required")
 	ErrOrderIDRequired  = errors.New("order ID is required")
 )
+
+// Service errors
+var (
+	ErrHistoryItemsRequired = errors.New("history items is required")
+)
+
+// Repository errors
+var (
+	ErrHistoryNotFound = errors.New("history not found")
+)

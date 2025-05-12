@@ -16,3 +16,14 @@ var (
 	ErrCreatedAtRequired   = errors.New("created at is required")
 	ErrUpdatedAtRequired   = errors.New("updated at is required")
 )
+
+// Service errors
+var (
+	ErrOrderRequired   = errors.New("order is required")
+	ErrOrderIDRequired = errors.New("order ID is required")
+)
+
+// Repository errors
+var (
+	ErrOrderNotFound = errors.New("order not found")
+)

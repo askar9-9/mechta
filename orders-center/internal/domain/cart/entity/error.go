@@ -13,9 +13,16 @@ var (
 	ErrOwnerIDRequired    = errors.New("owner ID is required")
 	ErrWarehouseRequired  = errors.New("warehouse is required")
 	ErrOrderIDInvalid     = errors.New("order ID is invalid")
+	ErrOrderIDRequired    = errors.New("order ID is required")
 )
 
 // Repository errors
 var (
-	ErrItemNotFound = errors.New("order item not found")
+	ErrItemNotFound       = errors.New("order item not found")
+	ErrOrderItemsNotFound = errors.New("order items not found")
+)
+
+// Service errors
+var (
+	ErrOrderItemsRequired = errors.New("order items is required")
 )

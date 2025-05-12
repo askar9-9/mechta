@@ -19,9 +19,20 @@ func NewService(repo OrderRepository, txManager tx.TransactionManager) *Service 
 }
 
 func (s *Service) RegisterOrder(ctx context.Context, item *entity.Order) error {
-	return nil
+	if item == nil {
+		return entity.ErrOrderRequired
+	}
+
+	if err := item.Validate(); err != nil {
+		return err
+	}
+
+	return s.repo.CreateOrder(ctx, item)
 }
 
-func (s *Service) GetOrderDetails(ctx context.Context, id string) (*entity.Order, error) {
-	return nil, nil
+func (s *Service) GetOrderDetails(ctx context.Context, orderID string) (*entity.Order, error) {
+	if orderID == "" {
+		return nil, entity.ErrOrderIDRequired
+	}
+	return s.repo.GetOrderByID(ctx, orderID)
 }

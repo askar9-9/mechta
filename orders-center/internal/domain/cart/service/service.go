@@ -19,9 +19,22 @@ func NewService(repo CartRepository, txManager tx.TransactionManager) *Service {
 }
 
 func (s *Service) GetItemsForOrder(ctx context.Context, orderID string) ([]*entity.OrderItem, error) {
+	if orderID == "" {
+		return nil, entity.ErrOrderIDRequired
+	}
+
 	return s.repo.FindItemsByOrderID(ctx, orderID)
 }
 
 func (s *Service) AttachItemsToOrder(ctx context.Context, items []*entity.OrderItem) error {
+	if len(items) == 0 {
+		return entity.ErrOrderItemsRequired
+	}
+
+	for _, item := range items {
+		if err := item.Validate(); err != nil {
+			return err
+		}
+	}
 	return s.repo.AddItemsToOrder(ctx, items)
 }
