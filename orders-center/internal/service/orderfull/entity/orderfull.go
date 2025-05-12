@@ -11,5 +11,5 @@ type OrderFull struct {
 	Order   *order.Order          `json:"order"`
 	Items   []*cart.OrderItem     `json:"items"`
 	Payment *payment.OrderPayment `json:"payment"`
-	History *history.History      `json:"history"`
+	History []*history.History    `json:"history"`
 }

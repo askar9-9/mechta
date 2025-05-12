@@ -19,8 +19,8 @@ type CartService interface {
 }
 
 type HistoryService interface {
-	LoadOrderHistory(ctx context.Context, id string) (*history.History, error)
-	RecordOrderHistory(ctx context.Context, item *history.History) error
+	LoadOrderHistory(ctx context.Context, id string) ([]*history.History, error)
+	RecordOrderHistory(ctx context.Context, item []*history.History) error
 }
 
 type OrderService interface {
