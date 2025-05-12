@@ -11,7 +11,7 @@ type Service struct {
 	histSvc   HistoryService
 	orderSvc  OrderService
 	paySvc    PaymentService
-	enoSvc    ENOService
+	outboxSvc OutboxService
 	txManager tx.TransactionManager
 }
 
@@ -20,7 +20,7 @@ func NewService(
 	history HistoryService,
 	order OrderService,
 	payment PaymentService,
-	eno ENOService,
+	outboxSvc OutboxService,
 	txManager tx.TransactionManager,
 ) *Service {
 	return &Service{
@@ -28,7 +28,7 @@ func NewService(
 		histSvc:   history,
 		orderSvc:  order,
 		paySvc:    payment,
-		enoSvc:    eno,
+		outboxSvc: outboxSvc,
 		txManager: txManager,
 	}
 }
@@ -51,7 +51,7 @@ func (s *Service) CreateOrderFull(ctx context.Context, orderFull *entity.OrderFu
 			return err
 		}
 
-		if err := s.enoSvc.CreateTask(ctx, orderFull); err != nil {
+		if err := s.outboxSvc.CreateTask(ctx, orderFull); err != nil {
 			return err
 		}
 		return nil

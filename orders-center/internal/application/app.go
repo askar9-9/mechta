@@ -9,14 +9,14 @@ import (
 	cartrepo "orders-center/internal/domain/cart/repository"
 	historyrepo "orders-center/internal/domain/history/repository"
 	orderrepo "orders-center/internal/domain/order/repository"
+	outboxrepo "orders-center/internal/domain/outbox/repository"
 	paymentrepo "orders-center/internal/domain/payment/repository"
 	"orders-center/internal/infrastructure/db/pgxtx"
-	enorepo "orders-center/internal/service/order_eno_1c/repository"
-	enosvc "orders-center/internal/service/order_eno_1c/service"
 
 	cartsvc "orders-center/internal/domain/cart/service"
 	historysvc "orders-center/internal/domain/history/service"
 	ordersvc "orders-center/internal/domain/order/service"
+	outboxsvc "orders-center/internal/domain/outbox/service"
 	paymentsvc "orders-center/internal/domain/payment/service"
 	orderfullsvc "orders-center/internal/service/orderfull/service"
 )
@@ -45,7 +45,7 @@ func Run() {
 	orderRepo := orderrepo.NewRepo(conns.DB)
 	paymentRepo := paymentrepo.NewRepo(conns.DB)
 
-	enoRepo := enorepo.NewRepo(conns.DB)
+	outboxRepo := outboxrepo.NewRepo(conns.DB)
 
 	// init services
 	cartService := cartsvc.NewService(cartRepo, txManager)
@@ -53,14 +53,14 @@ func Run() {
 	orderService := ordersvc.NewService(orderRepo, txManager)
 	paymentService := paymentsvc.NewService(paymentRepo, txManager)
 
-	orderENOService := enosvc.NewService(enoRepo, txManager)
+	outboxService := outboxsvc.NewService(outboxRepo, txManager)
 
 	orderFullService := orderfullsvc.NewService(
 		cartService,
 		historyService,
 		orderService,
 		paymentService,
-		orderENOService,
+		outboxService,
 		txManager,
 	)
 

@@ -6,11 +6,11 @@ import (
 	history "orders-center/internal/domain/history/entity"
 	order "orders-center/internal/domain/order/entity"
 	payment "orders-center/internal/domain/payment/entity"
-	"orders-center/internal/service/orderfull/entity"
+	full "orders-center/internal/service/orderfull/entity"
 )
 
-type ENOService interface {
-	CreateTask(ctx context.Context, item *entity.OrderFull) error
+type OutboxService interface {
+	CreateTask(ctx context.Context, item *full.OrderFull) error
 }
 
 type CartService interface {

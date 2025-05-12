@@ -2,8 +2,9 @@ package service
 
 import (
 	"context"
+	"orders-center/internal/domain/outbox/entity"
 	"orders-center/internal/pkg/tx"
-	"orders-center/internal/service/order_eno_1c/entity"
+	full "orders-center/internal/service/orderfull/entity"
 )
 
 type Service struct {
@@ -18,7 +19,7 @@ func NewService(repo OutboxRepository, txManager tx.TransactionManager) *Service
 	}
 }
 
-func (s *Service) CreateTask(ctx context.Context, orderID string) error {
+func (s *Service) CreateTask(ctx context.Context, item *full.OrderFull) error {
 	return nil
 }
 
