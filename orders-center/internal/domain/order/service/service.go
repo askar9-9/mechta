@@ -2,6 +2,7 @@ package service
 
 import (
 	"context"
+	"github.com/google/uuid"
 	"orders-center/internal/domain/order/entity"
 	"orders-center/internal/pkg/tx"
 )
@@ -30,8 +31,8 @@ func (s *Service) RegisterOrder(ctx context.Context, item *entity.Order) error {
 	return s.repo.CreateOrder(ctx, item)
 }
 
-func (s *Service) GetOrderDetails(ctx context.Context, orderID string) (*entity.Order, error) {
-	if orderID == "" {
+func (s *Service) GetOrderDetails(ctx context.Context, orderID uuid.UUID) (*entity.Order, error) {
+	if orderID == uuid.Nil {
 		return nil, entity.ErrOrderIDRequired
 	}
 	return s.repo.GetOrderByID(ctx, orderID)

@@ -2,6 +2,7 @@ package repository
 
 import (
 	"context"
+	"github.com/google/uuid"
 	"orders-center/internal/domain/history/entity"
 	"orders-center/internal/infrastructure/db/pgxtx"
 
@@ -18,7 +19,7 @@ func NewRepo(db *pgxpool.Pool) *Repo {
 	}
 }
 
-func (r *Repo) GetHistories(ctx context.Context, orderID string) ([]*entity.History, error) {
+func (r *Repo) GetHistories(ctx context.Context, orderID uuid.UUID) ([]*entity.History, error) {
 	q, ok := pgxtx.GetTx(ctx)
 	if !ok {
 		return nil, pgxtx.ErrNoTx

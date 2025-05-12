@@ -2,6 +2,7 @@ package service
 
 import (
 	"context"
+	"github.com/google/uuid"
 	"orders-center/internal/domain/cart/entity"
 	"orders-center/internal/pkg/tx"
 )
@@ -18,8 +19,8 @@ func NewService(repo CartRepository, txManager tx.TransactionManager) *Service {
 	}
 }
 
-func (s *Service) GetItemsForOrder(ctx context.Context, orderID string) ([]*entity.OrderItem, error) {
-	if orderID == "" {
+func (s *Service) GetItemsForOrder(ctx context.Context, orderID uuid.UUID) ([]*entity.OrderItem, error) {
+	if orderID == uuid.Nil {
 		return nil, entity.ErrOrderIDRequired
 	}
 

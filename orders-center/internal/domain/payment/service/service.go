@@ -2,6 +2,7 @@ package service
 
 import (
 	"context"
+	"github.com/google/uuid"
 	"orders-center/internal/domain/payment/entity"
 	"orders-center/internal/pkg/tx"
 )
@@ -22,6 +23,6 @@ func (s *Service) InitializePayment(ctx context.Context, items []*entity.OrderPa
 	return nil
 }
 
-func (s *Service) GetPaymentInfo(ctx context.Context, orderID string) ([]*entity.OrderPayment, error) {
+func (s *Service) GetPaymentInfo(ctx context.Context, orderID uuid.UUID) ([]*entity.OrderPayment, error) {
 	return nil, nil
 }

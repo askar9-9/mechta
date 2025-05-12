@@ -1,6 +1,9 @@
 package entity
 
-import "time"
+import (
+	"github.com/google/uuid"
+	"time"
+)
 
 type History struct {
 	Type     string    `json:"type"`
@@ -8,8 +11,8 @@ type History struct {
 	OldValue []byte    `json:"old_value"`
 	Value    []byte    `json:"value"`
 	Date     time.Time `json:"date"`
-	UserID   string    `json:"user_id"`
-	OrderID  string    `json:"order_id"`
+	UserID   uuid.UUID `json:"user_id"`
+	OrderID  uuid.UUID `json:"order_id"`
 }
 
 func (h *History) Validate() error {
@@ -28,10 +31,10 @@ func (h *History) Validate() error {
 	if h.Date.IsZero() {
 		return ErrDateRequired
 	}
-	if h.UserID == "" {
+	if h.UserID == uuid.Nil {
 		return ErrUserIDRequired
 	}
-	if h.OrderID == "" {
+	if h.OrderID == uuid.Nil {
 		return ErrOrderIDRequired
 	}
 	return nil

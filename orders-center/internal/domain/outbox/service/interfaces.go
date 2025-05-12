@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"orders-center/internal/service/order_eno_1c/entity"
+	"orders-center/internal/domain/outbox/entity"
 )
 
 type OutboxRepository interface {

@@ -7,7 +7,7 @@ import (
 )
 
 type Order struct {
-	ID          string
+	ID          uuid.UUID
 	Type        string
 	Status      string
 	City        string
@@ -22,7 +22,7 @@ type Order struct {
 }
 
 func (o *Order) Validate() error {
-	if o.ID == "" {
+	if o.ID == uuid.Nil {
 		return ErrIDRequired
 	}
 	if o.Type == "" {

@@ -2,6 +2,7 @@ package service
 
 import (
 	"context"
+	"github.com/google/uuid"
 	"orders-center/internal/domain/history/entity"
 	"orders-center/internal/pkg/tx"
 )
@@ -18,8 +19,8 @@ func NewService(repo HistoryRepository, txManger tx.TransactionManager) *Service
 	}
 }
 
-func (s *Service) LoadOrderHistory(ctx context.Context, orderID string) ([]*entity.History, error) {
-	if orderID == "" {
+func (s *Service) LoadOrderHistory(ctx context.Context, orderID uuid.UUID) ([]*entity.History, error) {
+	if orderID == uuid.Nil {
 		return nil, entity.ErrOrderIDRequired
 	}
 

@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"orders-center/internal/service/order_eno_1c/entity"
+	"orders-center/internal/domain/outbox/entity"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 )

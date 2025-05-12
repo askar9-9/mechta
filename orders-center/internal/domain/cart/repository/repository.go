@@ -3,6 +3,7 @@ package repository
 import (
 	"context"
 	"errors"
+	"github.com/google/uuid"
 	"orders-center/internal/domain/cart/entity"
 	"orders-center/internal/infrastructure/db/pgxtx"
 
@@ -20,7 +21,7 @@ func NewRepo(db *pgxpool.Pool) *Repo {
 	}
 }
 
-func (r *Repo) FindItemsByOrderID(ctx context.Context, orderID string) ([]*entity.OrderItem, error) {
+func (r *Repo) FindItemsByOrderID(ctx context.Context, orderID uuid.UUID) ([]*entity.OrderItem, error) {
 	q, ok := pgxtx.GetTx(ctx)
 	if !ok {
 		return nil, pgxtx.ErrNoTx
