@@ -13,6 +13,7 @@ type Outbox struct {
 	EventType     EventType
 	Payload       json.RawMessage
 	CreatedAt     time.Time
+	SyncAt        time.Time
 	ProcessedAt   time.Time
 	RetryCount    int
 	Error         string

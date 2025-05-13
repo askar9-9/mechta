@@ -35,6 +35,7 @@ func (s *Service) CreateOrderFullTask(ctx context.Context, item *full.OrderFull)
 		EventType:     entity.EventTypeOrderCreated,
 		Payload:       data,
 		CreatedAt:     time.Now(),
+		SyncAt:        time.Time{},
 		ProcessedAt:   time.Time{},
 		RetryCount:    0,
 		Error:         "",
