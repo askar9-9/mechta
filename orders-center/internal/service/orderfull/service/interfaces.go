@@ -11,7 +11,7 @@ import (
 )
 
 type OutboxService interface {
-	CreateTask(ctx context.Context, item *full.OrderFull) error
+	CreateOrderFullTask(ctx context.Context, item *full.OrderFull) error
 }
 
 type CartService interface {

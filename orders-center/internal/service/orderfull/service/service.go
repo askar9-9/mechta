@@ -51,7 +51,7 @@ func (s *Service) CreateOrderFull(ctx context.Context, orderFull *entity.OrderFu
 			return err
 		}
 
-		if err := s.outboxSvc.CreateTask(ctx, orderFull); err != nil {
+		if err := s.outboxSvc.CreateOrderFullTask(ctx, orderFull); err != nil {
 			return err
 		}
 		return nil

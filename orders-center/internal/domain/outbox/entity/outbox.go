@@ -9,11 +9,23 @@ import (
 type Outbox struct {
 	ID            uuid.UUID
 	AggregateID   uuid.UUID
-	AggregateType string
-	EventType     string
+	AggregateType AggregateType
+	EventType     EventType
 	Payload       json.RawMessage
 	CreatedAt     time.Time
 	ProcessedAt   time.Time
 	RetryCount    int
 	Error         string
 }
+
+type AggregateType string
+
+var (
+	AggregateTypeOrder AggregateType = "order"
+)
+
+type EventType string
+
+var (
+	EventTypeOrderCreated EventType = "order_created"
+)

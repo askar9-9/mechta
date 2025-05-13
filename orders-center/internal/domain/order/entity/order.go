@@ -7,18 +7,18 @@ import (
 )
 
 type Order struct {
-	ID          uuid.UUID
-	Type        string
-	Status      string
-	City        string
-	Subdivision string
-	Price       float64
-	Platform    string
-	GeneralID   uuid.UUID
-	OrderNumber string
-	Executor    string
-	CreatedAt   time.Time
-	UpdatedAt   time.Time
+	ID          uuid.UUID `json:"id"`
+	Type        string    `json:"type"`
+	Status      string    `json:"status"`
+	City        string    `json:"city"`
+	Subdivision string    `json:"subdivision"`
+	Price       float64   `json:"price"`
+	Platform    string    `json:"platform"`
+	GeneralID   uuid.UUID `json:"general_id"`
+	OrderNumber string    `json:"order_number"`
+	Executor    string    `json:"executor"`
+	CreatedAt   time.Time `json:"created_at"`
+	UpdatedAt   time.Time `json:"updated_at"`
 }
 
 func (o *Order) Validate() error {

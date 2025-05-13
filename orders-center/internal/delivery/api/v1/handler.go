@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"io"
+	"log/slog"
 	"net/http"
 	"orders-center/internal/service/orderfull/entity"
 	"time"
@@ -36,6 +37,7 @@ func (h *Handler) CreateOrder(w http.ResponseWriter, r *http.Request) {
 
 	data, err := io.ReadAll(r.Body)
 	if err != nil {
+		slog.Error("Failed to read request body: %v", err)
 		http.Error(w, "Failed to read request body", http.StatusBadRequest)
 		return
 	}
@@ -43,11 +45,13 @@ func (h *Handler) CreateOrder(w http.ResponseWriter, r *http.Request) {
 
 	var order entity.OrderFull
 	if err := json.Unmarshal(data, &order); err != nil {
+		slog.Error("Failed to unmarshal JSON: %v", err)
 		http.Error(w, "Invalid JSON format", http.StatusBadRequest)
 		return
 	}
 
 	if err := h.svc.CreateOrderFull(ctx, &order); err != nil {
+		slog.Error("Failed to create order: %v", err)
 		if errors.Is(err, context.DeadlineExceeded) {
 			http.Error(w, "Request timed out", http.StatusGatewayTimeout)
 			return
