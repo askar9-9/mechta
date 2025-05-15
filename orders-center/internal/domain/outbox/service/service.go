@@ -28,15 +28,14 @@ func (s *Service) CreateOrderFullTask(ctx context.Context, item *full.OrderFull)
 		return err
 	}
 
+	now := time.Now()
 	outbox := &entity.Outbox{
 		ID:            uuid.New(),
 		AggregateID:   item.Order.ID,
 		AggregateType: entity.AggregateTypeOrder,
 		EventType:     entity.EventTypeOrderCreated,
 		Payload:       data,
-		CreatedAt:     time.Now(),
-		SyncAt:        time.Time{},
-		ProcessedAt:   time.Time{},
+		CreatedAt:     &now,
 		RetryCount:    0,
 		Error:         "",
 	}

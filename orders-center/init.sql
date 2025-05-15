@@ -1,3 +1,5 @@
+
+
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 -- ============================
@@ -148,7 +150,7 @@ CREATE TABLE outbox_messages (
     payload JSONB NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT now(),
     sync_at TIMESTAMP DEFAULT NULL,
-    processed_at TIMESTAMP,
+    processed_at TIMESTAMP DEFAULT NULL,
     retry_count INT NOT NULL DEFAULT 0,
     error TEXT
 );

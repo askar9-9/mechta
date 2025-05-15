@@ -50,6 +50,8 @@ func (r *Repo) GetLimitedMessagesList(ctx context.Context, limit int) ([]*entity
 	query := `
 		SELECT id, aggregate_id, aggregate_type, event_type, payload, created_at, processed_at, retry_count, error
 		FROM outbox_messages
+		WHERE processed_at IS NULL
+		  AND (sync_at IS NULL OR sync_at < NOW() - INTERVAL '10 minutes')
 		ORDER BY created_at ASC, sync_at ASC
 		LIMIT $1
 		FOR UPDATE SKIP LOCKED
@@ -100,11 +102,11 @@ func (r *Repo) UpdateOutboxBatch(ctx context.Context, items []*entity.Outbox) er
 	query := `
 		UPDATE outbox_messages
 		SET processed_at = $1
-		WHERE id = $4
+		WHERE id = $2
 	`
 
 	for _, item := range items {
-		_, err := q.Exec(ctx, query, item.ProcessedAt, item.RetryCount, item.Error, item.ID)
+		_, err := q.Exec(ctx, query, item.ProcessedAt, item.ID)
 		if err != nil {
 			return err
 		}

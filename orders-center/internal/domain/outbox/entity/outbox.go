@@ -12,9 +12,9 @@ type Outbox struct {
 	AggregateType AggregateType
 	EventType     EventType
 	Payload       json.RawMessage
-	CreatedAt     time.Time
-	SyncAt        time.Time
-	ProcessedAt   time.Time
+	CreatedAt     *time.Time
+	SyncAt        *time.Time
+	ProcessedAt   *time.Time
 	RetryCount    int
 	Error         string
 }
@@ -32,7 +32,7 @@ var (
 )
 
 func (o *Outbox) IsProcessed() bool {
-	return o.ProcessedAt != time.Time{}
+	return o.ProcessedAt != nil && o.RetryCount > 0
 }
 
 func (o *Outbox) SetError(err error) {
@@ -42,11 +42,15 @@ func (o *Outbox) SetError(err error) {
 }
 
 func (o *Outbox) SetProcessedAt() {
-	o.ProcessedAt = time.Now()
+	if o.ProcessedAt == nil {
+		now := time.Now()
+		o.ProcessedAt = &now
+	}
 }
 
 func (o *Outbox) SetSyncAt() {
-	o.SyncAt = time.Now()
+	now := time.Now()
+	o.SyncAt = &now
 }
 
 func (o *Outbox) SetRetryCount(count int) {
