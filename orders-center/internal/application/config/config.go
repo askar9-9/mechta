@@ -36,9 +36,13 @@ type PostgresConfig struct {
 }
 
 type OneCConfig struct {
-	URL     string        `env:"ONEC_URL" envDefault:"http://localhost:9900"`
-	Timeout time.Duration `env:"ONEC_TIMEOUT" envDefault:"5s"`
-	Retries int           `env:"ONEC_RETRIES" envDefault:"3"`
+	URL                   string        `env:"ONEC_URL" envDefault:"http://localhost:9900"`
+	Timeout               time.Duration `env:"ONEC_TIMEOUT" envDefault:"5s"`
+	Retries               int           `env:"ONEC_RETRIES" envDefault:"3"`
+	MaxIdleConnections    int           `env:"ONEC_HTTP_MAX_IDLE" envDefault:"100"`
+	MaxConnsPerHost       int           `env:"ONEC_HTTP_MAX_PER_HOST" envDefault:"10"`
+	IdleConnTimeout       int           `env:"ONEC_HTTP_IDLE_TIMEOUT" envDefault:"90"`  // сек
+	ResponseHeaderTimeout int           `env:"ONEC_HTTP_HEADER_TIMEOUT" envDefault:"5"` // сек
 }
 
 type WorkerPoolConfig struct {
