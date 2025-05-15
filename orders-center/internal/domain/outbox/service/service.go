@@ -44,6 +44,14 @@ func (s *Service) CreateOrderFullTask(ctx context.Context, item *full.OrderFull)
 	return s.repo.CreateTask(ctx, outbox)
 }
 
-func (s *Service) GetListTask(ctx context.Context, id string) ([]*entity.Outbox, error) {
-	return nil, nil
+func (s *Service) FetchOutboxMessagesLimit(ctx context.Context, limit int) ([]*entity.Outbox, error) {
+	return s.repo.GetLimitedMessagesList(ctx, limit)
+}
+
+func (s *Service) UpdateBatch(ctx context.Context, list []*entity.Outbox) error {
+	return s.repo.UpdateOutboxBatch(ctx, list)
+}
+
+func (s *Service) UpdateSingle(ctx context.Context, msg *entity.Outbox) error {
+	return s.repo.UpdateOutboxSingle(ctx, msg)
 }
