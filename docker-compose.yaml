@@ -10,6 +10,48 @@ services:
     networks:
       - order-net
 
+  app:
+    build:
+      context: ./orders-center
+    container_name: orders-center-app
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    env_file:
+      - ./orders-center/.env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: ["./app"]
+    restart: on-failure
+    networks:
+      - order-net
+
+  postgres:
+    image: postgres:15
+    container_name: orders-center-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: orders
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./orders-center/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - order-net
+
 networks:
   order-net:
     driver: bridge
+
+volumes:
+  pgdata:

@@ -36,7 +36,7 @@ type PostgresConfig struct {
 }
 
 type OneCConfig struct {
-	URL                   string        `env:"ONEC_URL" envDefault:"http://localhost:9900"`
+	URL                   string        `env:"ONEC_URL" envDefault:"http://mock-1c:9900"`
 	Timeout               time.Duration `env:"ONEC_TIMEOUT" envDefault:"5s"`
 	Retries               int           `env:"ONEC_RETRIES" envDefault:"3"`
 	MaxIdleConnections    int           `env:"ONEC_HTTP_MAX_IDLE" envDefault:"100"`

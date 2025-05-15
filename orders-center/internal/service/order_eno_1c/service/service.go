@@ -80,8 +80,6 @@ func (s *OrderEno1cService) process(ctx context.Context) error {
 			msg,
 			func(ctx context.Context) error {
 				return s.txManager.Do(ctx, func(ctx context.Context) error {
-					// Update the message as processed
-					msg.SetProcessedAt()
 					if err := s.outboxSvc.UpdateSingle(ctx, msg); err != nil {
 						return fmt.Errorf("failed to update message: %w", err)
 					}

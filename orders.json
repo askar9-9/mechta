@@ -1,0 +1,6102 @@
+[
+  {
+    "order": {
+      "id": "e7389cdd-7788-449f-a4ca-6bf1003785f2",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "13d297b2-7bce-4b75-90d3-9f09355c4e55",
+      "order_number": "ORD-20240512-0001",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "ac3301cf-7471-4102-b922-74f192f89579",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "4cfc6099-7738-4d5a-9260-d54fe200c6ac",
+        "delivery_id": "a8de26b9-d434-4ed9-b1d0-96ce73e3ae51",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "e7389cdd-7788-449f-a4ca-6bf1003785f2"
+      }
+    ],
+    "payment": [
+      {
+        "id": "8f346452-647e-4c09-bee1-76a1e8f00169",
+        "order_id": "e7389cdd-7788-449f-a4ca-6bf1003785f2",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-001",
+        "external_id": "EXTPAY-9431",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473848"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "7187026e-b4b8-432d-b3da-740bd4c5a84a",
+        "order_id": "e7389cdd-7788-449f-a4ca-6bf1003785f2"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "c13a4b8f-c022-46ea-a61b-e16a5104af24",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "4a805c3c-d099-4339-bea4-3bf2a1cb60e4",
+      "order_number": "ORD-20240512-0002",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "da876147-4d1a-488b-83b4-a2909700d8d8",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "ddeb16fa-bd24-4971-a1f4-4d732e9ac9c5",
+        "delivery_id": "c7b4d357-fe28-443b-a8a2-ab015c43b1f2",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "c13a4b8f-c022-46ea-a61b-e16a5104af24"
+      }
+    ],
+    "payment": [
+      {
+        "id": "9685761c-527a-47c0-af86-f0ae2c5c1cfe",
+        "order_id": "c13a4b8f-c022-46ea-a61b-e16a5104af24",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-002",
+        "external_id": "EXTPAY-9432",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473849"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "826737b6-f63a-4e44-a381-19fc1df1d705",
+        "order_id": "c13a4b8f-c022-46ea-a61b-e16a5104af24"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "c974fc82-38ac-4fb6-a957-5150e2301ddf",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "76830511-18eb-4f5d-b4b6-72e0ec58c8c9",
+      "order_number": "ORD-20240512-0003",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "d4ae9d27-3bff-49db-b067-d070f9a5b34d",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "9c10bfd7-2bc0-47eb-81d5-6cab1570156b",
+        "delivery_id": "95458615-d305-4eb8-bb47-90362a861921",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "c974fc82-38ac-4fb6-a957-5150e2301ddf"
+      }
+    ],
+    "payment": [
+      {
+        "id": "321639c5-8c12-41be-9c34-568d1974ef5b",
+        "order_id": "c974fc82-38ac-4fb6-a957-5150e2301ddf",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-003",
+        "external_id": "EXTPAY-9433",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473850"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "aca4ae79-7a87-441f-888f-8b7bd68a6c30",
+        "order_id": "c974fc82-38ac-4fb6-a957-5150e2301ddf"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "10671ddc-e439-4bd5-b10f-fc4161fb8335",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "e6a2cac8-6274-4709-96b5-dd37a575df9e",
+      "order_number": "ORD-20240512-0004",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "1b9f59e6-4efe-4182-be37-c81118ddeb7a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "08806bf0-fc77-4aaf-986d-a21f11946653",
+        "delivery_id": "b173e260-ae68-46dd-92d1-d7209a27c0e4",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "10671ddc-e439-4bd5-b10f-fc4161fb8335"
+      }
+    ],
+    "payment": [
+      {
+        "id": "f26c908d-86c0-4e49-b511-1fcaef3deaa0",
+        "order_id": "10671ddc-e439-4bd5-b10f-fc4161fb8335",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-004",
+        "external_id": "EXTPAY-9434",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473851"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "730df565-ea0b-41d9-99b9-51e30e2d249a",
+        "order_id": "10671ddc-e439-4bd5-b10f-fc4161fb8335"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "d22e7f34-f44b-4a6d-9f5e-fe64c5b0b092",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "91c27b1e-a127-4d0f-a88f-5d9a4cb574b3",
+      "order_number": "ORD-20240512-0005",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "887bfc06-ac8a-4663-9361-befb510fb416",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "d2f4eab5-e196-480f-901b-589443242dc8",
+        "delivery_id": "58cc5905-da22-41dd-abc2-0b00ec1be538",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "d22e7f34-f44b-4a6d-9f5e-fe64c5b0b092"
+      }
+    ],
+    "payment": [
+      {
+        "id": "02fa933d-1298-479f-8180-3e2c415f876d",
+        "order_id": "d22e7f34-f44b-4a6d-9f5e-fe64c5b0b092",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-005",
+        "external_id": "EXTPAY-9435",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473852"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "e615769a-964c-403b-9786-29fb05dcc20a",
+        "order_id": "d22e7f34-f44b-4a6d-9f5e-fe64c5b0b092"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "4e055a96-a418-4fdb-8d2d-c51f790b672a",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "d525e201-c9e4-48f3-9782-bbc82d505445",
+      "order_number": "ORD-20240512-0006",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "25a7fc1b-e637-4516-9c7e-862a9f21e3b9",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "e289b81a-e90b-4906-a70e-c39ffe3b5222",
+        "delivery_id": "511d3d9f-647b-48f6-a768-2846c20b2e98",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "4e055a96-a418-4fdb-8d2d-c51f790b672a"
+      }
+    ],
+    "payment": [
+      {
+        "id": "26169819-c0b3-4497-8508-6db192c0b8ac",
+        "order_id": "4e055a96-a418-4fdb-8d2d-c51f790b672a",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-006",
+        "external_id": "EXTPAY-9436",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473853"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "95c719ef-e40c-4c7f-b8d1-0da439079d1d",
+        "order_id": "4e055a96-a418-4fdb-8d2d-c51f790b672a"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "7a947d1e-ac81-4d03-ac40-847c2d804b25",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "b3613344-3307-4e52-bebf-8ef351cc4f82",
+      "order_number": "ORD-20240512-0007",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "33831872-e960-44ba-8b92-bd5f0580e432",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "5db5aaf2-2420-416d-89ea-069c00e70334",
+        "delivery_id": "72036c89-5acb-453d-abc4-ab3eaa9ab7d5",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "7a947d1e-ac81-4d03-ac40-847c2d804b25"
+      }
+    ],
+    "payment": [
+      {
+        "id": "1784b8ce-9a8d-4176-806d-f4218237f0e0",
+        "order_id": "7a947d1e-ac81-4d03-ac40-847c2d804b25",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-007",
+        "external_id": "EXTPAY-9437",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473854"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "61a0e0d6-d45b-406a-98a7-00857e3df398",
+        "order_id": "7a947d1e-ac81-4d03-ac40-847c2d804b25"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "dc0bd67b-4a65-463a-bb78-c681b77df6f2",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "68617d96-4529-4ee3-b894-9560e127d1c5",
+      "order_number": "ORD-20240512-0008",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "5623e8a5-afde-48e6-b6af-cb4154ba238b",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "41acbb19-c26e-473b-bd0a-88fbb32ca89f",
+        "delivery_id": "8286b627-58e7-44ee-85e0-58fda3966011",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "dc0bd67b-4a65-463a-bb78-c681b77df6f2"
+      }
+    ],
+    "payment": [
+      {
+        "id": "663080f5-b131-4da5-86c9-cd595e6e9ad2",
+        "order_id": "dc0bd67b-4a65-463a-bb78-c681b77df6f2",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-008",
+        "external_id": "EXTPAY-9438",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473855"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "7330d1b1-0cd1-4193-8df6-21800d2755bd",
+        "order_id": "dc0bd67b-4a65-463a-bb78-c681b77df6f2"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "13b73619-2016-4006-8c93-8303c8e4c93e",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "c655276f-194d-44ad-9881-ae7d566a5fca",
+      "order_number": "ORD-20240512-0009",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "4ea260b9-1053-45d9-92d4-1b135a2f3d0a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "bb8d3f07-e52c-4f42-9c67-18922765c0c0",
+        "delivery_id": "1997a579-1dd0-4250-a161-51ad73e8238e",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "13b73619-2016-4006-8c93-8303c8e4c93e"
+      }
+    ],
+    "payment": [
+      {
+        "id": "51976259-45fd-4a94-9fcc-0dc8853ee235",
+        "order_id": "13b73619-2016-4006-8c93-8303c8e4c93e",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-009",
+        "external_id": "EXTPAY-9439",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473856"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "63cc648c-d070-45ec-b6b0-c95e56ab9ab0",
+        "order_id": "13b73619-2016-4006-8c93-8303c8e4c93e"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "f779cf61-4282-48f5-8f0a-b2b67c83856b",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "3c4d3c26-c0d5-414f-9054-b8c2baab9a38",
+      "order_number": "ORD-20240512-0010",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "fc6ebbd7-5300-42ad-a52f-4e16a10b32ee",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "320ef171-5fac-4ad1-9090-9b9d1e01f53b",
+        "delivery_id": "2cd2b221-6fba-48ad-ab3a-6e1feb53f025",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "f779cf61-4282-48f5-8f0a-b2b67c83856b"
+      }
+    ],
+    "payment": [
+      {
+        "id": "887bb0fc-5196-4a7e-bdd6-4075f475afae",
+        "order_id": "f779cf61-4282-48f5-8f0a-b2b67c83856b",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-010",
+        "external_id": "EXTPAY-9440",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473857"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "c5c554be-2dd5-4585-be7e-9602fef01fab",
+        "order_id": "f779cf61-4282-48f5-8f0a-b2b67c83856b"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "31c07610-85dd-4a7c-9768-d2c3f9c73327",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "64610f40-49dc-4dd0-99a0-db953ce37bc4",
+      "order_number": "ORD-20240512-0011",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "2fdaab2b-7b79-4b27-847b-e01fc78f721d",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "2fe52aea-cd69-4852-8517-c3e10b3e0214",
+        "delivery_id": "a451e837-bc7f-48b5-99df-1aeafb2041ed",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "31c07610-85dd-4a7c-9768-d2c3f9c73327"
+      }
+    ],
+    "payment": [
+      {
+        "id": "516847a4-5c5b-4362-8536-919a40b9467a",
+        "order_id": "31c07610-85dd-4a7c-9768-d2c3f9c73327",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-011",
+        "external_id": "EXTPAY-9441",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473858"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "8e263304-5009-45b6-a7d5-c9c99fb04fb1",
+        "order_id": "31c07610-85dd-4a7c-9768-d2c3f9c73327"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "3e3eece2-cd05-4fc4-8488-b05de7538fd8",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "cd5eb876-e513-4b18-9097-161a22f4a280",
+      "order_number": "ORD-20240512-0012",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "791efe19-1dd8-490e-9dcc-fb17e36180b6",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "da67ad10-6977-4aeb-baa8-df09952c4834",
+        "delivery_id": "dc593ceb-17f2-4c98-abe8-5b45c157974c",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "3e3eece2-cd05-4fc4-8488-b05de7538fd8"
+      }
+    ],
+    "payment": [
+      {
+        "id": "73ef5b75-9531-4ce4-8c6e-7c58273013f8",
+        "order_id": "3e3eece2-cd05-4fc4-8488-b05de7538fd8",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-012",
+        "external_id": "EXTPAY-9442",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473859"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "270fb266-2503-4e72-b1bd-ad3057b07f51",
+        "order_id": "3e3eece2-cd05-4fc4-8488-b05de7538fd8"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "aa8d495e-a751-43eb-876c-c4643e2e8540",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "548ffd83-4e1c-4269-8dae-4c3c3a74b059",
+      "order_number": "ORD-20240512-0013",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "1a90830d-9981-4da8-a09e-3bb7f39ba412",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "9719a4e2-bf2d-475d-82e7-c7dc874134a2",
+        "delivery_id": "5097313c-19fe-4fe1-abf5-1bf09a0f4c06",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "aa8d495e-a751-43eb-876c-c4643e2e8540"
+      }
+    ],
+    "payment": [
+      {
+        "id": "4548f69d-ad01-4676-bb76-b956fe5d76f7",
+        "order_id": "aa8d495e-a751-43eb-876c-c4643e2e8540",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-013",
+        "external_id": "EXTPAY-9443",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473860"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "9694d557-ac1e-4a87-ad8c-c60acb6403be",
+        "order_id": "aa8d495e-a751-43eb-876c-c4643e2e8540"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "4ec16138-5f34-45a3-a3a7-454aaab2afa1",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "6068c0ad-5029-415a-b1ea-6b3c5ead0ecf",
+      "order_number": "ORD-20240512-0014",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "ae8e8c4b-4e22-468a-915e-be26add650ea",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "6087a829-976e-41a1-94ef-026f83f32be6",
+        "delivery_id": "da274a82-2f78-4da6-b5ad-0467e9a5768f",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "4ec16138-5f34-45a3-a3a7-454aaab2afa1"
+      }
+    ],
+    "payment": [
+      {
+        "id": "f2e8c03b-e16f-4721-b78f-e0b1b471294e",
+        "order_id": "4ec16138-5f34-45a3-a3a7-454aaab2afa1",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-014",
+        "external_id": "EXTPAY-9444",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473861"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "a02ba9eb-9aaa-46eb-9505-8e9c72d4bbd7",
+        "order_id": "4ec16138-5f34-45a3-a3a7-454aaab2afa1"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "8f6d1927-6ee9-4bdb-b319-c2ecc18fc694",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "1db6ae0c-127e-4730-9bf2-b5df016fed2b",
+      "order_number": "ORD-20240512-0015",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "d9911347-9cc0-4ee6-8c87-fb02bc6bef8a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "49ca4971-d96e-41b6-af74-dc14b1a94bac",
+        "delivery_id": "664cf4a5-b77b-487c-b73e-3cf444d87e3b",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "8f6d1927-6ee9-4bdb-b319-c2ecc18fc694"
+      }
+    ],
+    "payment": [
+      {
+        "id": "3f5f6ec9-da55-4c1e-96ae-7411fd1415a7",
+        "order_id": "8f6d1927-6ee9-4bdb-b319-c2ecc18fc694",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-015",
+        "external_id": "EXTPAY-9445",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473862"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "f17218ae-f8f3-4106-9b64-0bec8d056f7e",
+        "order_id": "8f6d1927-6ee9-4bdb-b319-c2ecc18fc694"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "0cab4075-b196-485a-9163-ca28e9f9717f",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "ce548c39-9c82-45d3-96e2-7939b9296fc2",
+      "order_number": "ORD-20240512-0016",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "85d4c9ed-e37e-4d1e-a574-10849993787f",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "28e805b2-62af-47ca-bff6-9ed0e0da9eda",
+        "delivery_id": "1edab8e6-5b11-4f9c-868e-e931aac8c0b3",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "0cab4075-b196-485a-9163-ca28e9f9717f"
+      }
+    ],
+    "payment": [
+      {
+        "id": "b53eb664-58c4-4767-a0ad-6b27ca2c97e4",
+        "order_id": "0cab4075-b196-485a-9163-ca28e9f9717f",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-016",
+        "external_id": "EXTPAY-9446",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473863"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "b9a31af8-29ff-44f4-91be-f0c84202f4b8",
+        "order_id": "0cab4075-b196-485a-9163-ca28e9f9717f"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "5789677f-fd5c-450b-bc44-67fce6ebad54",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "b5984bd6-bc5b-49da-937c-90d2e77e1f6f",
+      "order_number": "ORD-20240512-0017",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "04a9737f-4f94-45c9-b152-beab621b6320",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "f37bea09-4c4f-4d8d-aa62-a74ddb2ad9e7",
+        "delivery_id": "3713044b-6bda-4238-994c-7b742592d8ac",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "5789677f-fd5c-450b-bc44-67fce6ebad54"
+      }
+    ],
+    "payment": [
+      {
+        "id": "ed12d4ca-ec08-4380-bcf0-ab666e90486b",
+        "order_id": "5789677f-fd5c-450b-bc44-67fce6ebad54",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-017",
+        "external_id": "EXTPAY-9447",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473864"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "f0269bef-1f46-4793-8ff2-2bc0067486d8",
+        "order_id": "5789677f-fd5c-450b-bc44-67fce6ebad54"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "d086ea21-ba53-45f6-8d30-5269b1e93b13",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "bb3c13e1-8530-4983-b8c9-c2f414c27272",
+      "order_number": "ORD-20240512-0018",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "fad8d9b3-5689-4b02-8379-fd8c51aedee6",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "42b6942a-6652-4fff-b69c-a9d5ca15cb71",
+        "delivery_id": "cab42887-77ee-43ae-8cf5-ae985ee059d4",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "d086ea21-ba53-45f6-8d30-5269b1e93b13"
+      }
+    ],
+    "payment": [
+      {
+        "id": "9d05e7ca-4a62-4192-bc75-85edb2eec21f",
+        "order_id": "d086ea21-ba53-45f6-8d30-5269b1e93b13",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-018",
+        "external_id": "EXTPAY-9448",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473865"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "8ec16bd7-3f25-411b-b5d1-e642d50fe629",
+        "order_id": "d086ea21-ba53-45f6-8d30-5269b1e93b13"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "e256ca12-b924-455a-8e93-5447ad868cbf",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "862164bb-eab9-4126-a221-0b18e8687309",
+      "order_number": "ORD-20240512-0019",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "292da832-035f-4a86-9333-0e29cd02a03b",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "a4297cf9-0d86-416b-9433-47c813387d47",
+        "delivery_id": "ef9ffb88-5de2-49a8-8cf8-72db63637625",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "e256ca12-b924-455a-8e93-5447ad868cbf"
+      }
+    ],
+    "payment": [
+      {
+        "id": "350d6e35-dff9-412d-92e2-a01f570b901c",
+        "order_id": "e256ca12-b924-455a-8e93-5447ad868cbf",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-019",
+        "external_id": "EXTPAY-9449",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473866"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "d08d5356-188c-4f09-bbd3-db891cff7e14",
+        "order_id": "e256ca12-b924-455a-8e93-5447ad868cbf"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "9015a560-5539-4ff3-8a15-c9b3c61aa330",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "49deeaa1-9a6a-420b-8a6e-b2253a472379",
+      "order_number": "ORD-20240512-0020",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "d63988a8-e109-4d10-9c76-fb1459d108fa",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "e0ba8d1e-433d-477e-bac2-96d3bd3d39d8",
+        "delivery_id": "bad2ee96-2f67-4fa6-a720-711e3d02f0b4",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "9015a560-5539-4ff3-8a15-c9b3c61aa330"
+      }
+    ],
+    "payment": [
+      {
+        "id": "4497a7ac-5f53-4141-8460-aba1d52288c5",
+        "order_id": "9015a560-5539-4ff3-8a15-c9b3c61aa330",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-020",
+        "external_id": "EXTPAY-9450",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473867"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "3408113a-f943-4a4c-bab7-41e066b0ed46",
+        "order_id": "9015a560-5539-4ff3-8a15-c9b3c61aa330"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "df444c09-090a-44e2-b0cd-8e06aefce2a8",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "1a44133b-c318-4131-86ca-b851f71499ed",
+      "order_number": "ORD-20240512-0021",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "1a408873-ec55-4e70-9316-770373ce35ab",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "465bf25d-6433-4bea-816b-9ef7c687d1c8",
+        "delivery_id": "c0bf4f0f-dc9d-436c-b42c-a61252b41576",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "df444c09-090a-44e2-b0cd-8e06aefce2a8"
+      }
+    ],
+    "payment": [
+      {
+        "id": "91df55f7-4c46-455a-a463-c34287f3e313",
+        "order_id": "df444c09-090a-44e2-b0cd-8e06aefce2a8",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-021",
+        "external_id": "EXTPAY-9451",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473868"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "d90dc26e-c37d-4d1e-ac7d-7dcbf273e70b",
+        "order_id": "df444c09-090a-44e2-b0cd-8e06aefce2a8"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "16f717f4-8b03-441c-8e1b-9837716331a8",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "26048971-9b4c-49af-a528-4e85cf25a905",
+      "order_number": "ORD-20240512-0022",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "f0befe52-562c-42af-96d6-60068f59945e",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "e11cca35-a27a-4b58-a362-1fb1c27e75fb",
+        "delivery_id": "71cc1eea-9ac4-4da3-9b22-7d59ec22259d",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "16f717f4-8b03-441c-8e1b-9837716331a8"
+      }
+    ],
+    "payment": [
+      {
+        "id": "b9f9ee1f-abfa-4c46-903b-4d40d3fb6625",
+        "order_id": "16f717f4-8b03-441c-8e1b-9837716331a8",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-022",
+        "external_id": "EXTPAY-9452",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473869"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "48660154-ad57-46f3-80a5-9a63f66c005d",
+        "order_id": "16f717f4-8b03-441c-8e1b-9837716331a8"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "c8efd39c-a15e-47fe-9d22-8f0d7a330125",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "e1eb3479-27cd-4d60-b42b-6cfd59e55710",
+      "order_number": "ORD-20240512-0023",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "2385d7cd-4b50-40bd-afa4-c6ea80516a8c",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "efff106c-baa5-4ee2-be76-e261197cfbc6",
+        "delivery_id": "7ce30879-945b-43bb-85ff-9fa242bfe87a",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "c8efd39c-a15e-47fe-9d22-8f0d7a330125"
+      }
+    ],
+    "payment": [
+      {
+        "id": "d1b65ff1-21d3-49f3-9311-aa5e7b9fec8f",
+        "order_id": "c8efd39c-a15e-47fe-9d22-8f0d7a330125",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-023",
+        "external_id": "EXTPAY-9453",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473870"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "9e5a5cbd-57cb-4979-8c39-74287a9e7b51",
+        "order_id": "c8efd39c-a15e-47fe-9d22-8f0d7a330125"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "4f8f844d-783a-482e-94fe-c8c4386254ab",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "d7759bbd-04ee-49ad-b759-7bbd06c856c7",
+      "order_number": "ORD-20240512-0024",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "93091d40-5967-46b1-bcd0-5397d5a0c738",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "fa66fdd0-aef8-423f-9f22-886dfddf82a5",
+        "delivery_id": "272b0593-9038-4e5d-acb2-deac86b89d2e",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "4f8f844d-783a-482e-94fe-c8c4386254ab"
+      }
+    ],
+    "payment": [
+      {
+        "id": "57ff6455-8893-400d-905b-298d4cc61379",
+        "order_id": "4f8f844d-783a-482e-94fe-c8c4386254ab",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-024",
+        "external_id": "EXTPAY-9454",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473871"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "c50485aa-4624-4cb6-a376-44c67a83597f",
+        "order_id": "4f8f844d-783a-482e-94fe-c8c4386254ab"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "c5bfa752-0300-4cb1-94f0-4c3f8225846f",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "21eca6a2-8c21-475c-b033-ebd491623054",
+      "order_number": "ORD-20240512-0025",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "3f4b8f1c-9cd7-426a-8821-8579d6bf2155",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "a0cffc0a-7c0d-4626-b827-e69a86eee019",
+        "delivery_id": "87ff9cb0-e5c3-4d4a-b3f9-b1e46b27cd1a",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "c5bfa752-0300-4cb1-94f0-4c3f8225846f"
+      }
+    ],
+    "payment": [
+      {
+        "id": "e6958b8c-55c5-487e-81ae-35e72a16f6e6",
+        "order_id": "c5bfa752-0300-4cb1-94f0-4c3f8225846f",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-025",
+        "external_id": "EXTPAY-9455",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473872"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "76cd7a24-39ce-4237-b3cd-781dcf23bbe9",
+        "order_id": "c5bfa752-0300-4cb1-94f0-4c3f8225846f"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "eca027c1-53b1-4dd6-adaa-2d4c5e70d2c6",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "cd7784f1-2366-4566-9724-3901a51dc36e",
+      "order_number": "ORD-20240512-0026",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "2634cd9a-dab1-482d-a1d5-294404a06462",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "e53e0970-0d3d-4a2b-874a-85864bbae06c",
+        "delivery_id": "8928794f-1ce5-47ed-a282-c3bc001c54e1",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "eca027c1-53b1-4dd6-adaa-2d4c5e70d2c6"
+      }
+    ],
+    "payment": [
+      {
+        "id": "047d0ac3-a9bb-4afb-bfce-52f618a6680e",
+        "order_id": "eca027c1-53b1-4dd6-adaa-2d4c5e70d2c6",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-026",
+        "external_id": "EXTPAY-9456",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473873"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "09710ac9-08ff-47c7-a18e-77bfc9495c63",
+        "order_id": "eca027c1-53b1-4dd6-adaa-2d4c5e70d2c6"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "c5e10d4f-213b-4ab6-9310-252990670836",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "7ca48aca-470b-42e1-8802-173c91fd0ae1",
+      "order_number": "ORD-20240512-0027",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "e9806616-620f-492c-af6d-3c5aa75d601f",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "f8f2cbef-0dd0-4ac8-a17c-65c376c5b997",
+        "delivery_id": "942d1293-7db7-4c23-adf3-44fe1344c9b1",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "c5e10d4f-213b-4ab6-9310-252990670836"
+      }
+    ],
+    "payment": [
+      {
+        "id": "22c17cdf-ae00-4ba5-938f-96f525058440",
+        "order_id": "c5e10d4f-213b-4ab6-9310-252990670836",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-027",
+        "external_id": "EXTPAY-9457",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473874"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "3bb4ffed-3d6b-47e3-8e70-f76ee04c7c3e",
+        "order_id": "c5e10d4f-213b-4ab6-9310-252990670836"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "2f39d317-3257-4493-ba3a-a8dfeb0f5c60",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "c7815434-e9b3-407d-bc70-4a5ddbc4044f",
+      "order_number": "ORD-20240512-0028",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "38e7091d-0ef6-4524-a7ad-66e2f342a0be",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "aa0796bf-3c61-454c-993a-5470295db413",
+        "delivery_id": "46279299-87d3-4ca8-9d2b-76550f870b99",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "2f39d317-3257-4493-ba3a-a8dfeb0f5c60"
+      }
+    ],
+    "payment": [
+      {
+        "id": "482d0b7c-9bd8-4ed1-a533-fa40a540279a",
+        "order_id": "2f39d317-3257-4493-ba3a-a8dfeb0f5c60",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-028",
+        "external_id": "EXTPAY-9458",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473875"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "eced80bb-b3f3-4255-8fc9-502c5a262b36",
+        "order_id": "2f39d317-3257-4493-ba3a-a8dfeb0f5c60"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "803b6f3c-615e-4727-b0a8-6348975c41c7",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "b3d96c8f-9c96-4b77-8ad1-aeaa77936e8f",
+      "order_number": "ORD-20240512-0029",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "1a5fcb7b-8493-414f-97b9-ea28d57ee367",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "e3c42ea9-8d3d-490e-906a-57cc0f1ca28c",
+        "delivery_id": "43fdde25-1770-4442-aeac-9e49e08aa71d",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "803b6f3c-615e-4727-b0a8-6348975c41c7"
+      }
+    ],
+    "payment": [
+      {
+        "id": "5ff2dd6a-a826-4d1c-853c-9fe2cd8aef22",
+        "order_id": "803b6f3c-615e-4727-b0a8-6348975c41c7",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-029",
+        "external_id": "EXTPAY-9459",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473876"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "dea6dab5-63f3-4a54-bdc2-f158d9de48b3",
+        "order_id": "803b6f3c-615e-4727-b0a8-6348975c41c7"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "b80c2668-efa3-4a15-ae45-f1a468e008a1",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "88e7dc7c-2d69-4345-af10-3f2ea83fe814",
+      "order_number": "ORD-20240512-0030",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "a07aa29a-68bc-4b94-a6e1-c63a9a7b1c56",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "aa902e39-a609-41b1-bb74-5ef5aa56ca22",
+        "delivery_id": "6ee8804e-85ae-4fa9-94f2-0590330ebec4",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "b80c2668-efa3-4a15-ae45-f1a468e008a1"
+      }
+    ],
+    "payment": [
+      {
+        "id": "231d7aa3-ef36-4440-83c3-aac8e994e6a7",
+        "order_id": "b80c2668-efa3-4a15-ae45-f1a468e008a1",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-030",
+        "external_id": "EXTPAY-9460",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473877"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "b0a33c32-f5b7-4237-a1da-16ff83a64964",
+        "order_id": "b80c2668-efa3-4a15-ae45-f1a468e008a1"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "41d04e69-cefb-41b5-a41a-99cfdb468a6f",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "9c79a626-f16e-4cf2-9688-1cd84ad0ded6",
+      "order_number": "ORD-20240512-0031",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "36e9cebe-7389-4857-9135-4b2c02319dd2",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "9fafb5a3-cf98-4f52-a9dc-bcdef05cb6e7",
+        "delivery_id": "31a03400-b857-4a96-8f11-5cff3c423411",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "41d04e69-cefb-41b5-a41a-99cfdb468a6f"
+      }
+    ],
+    "payment": [
+      {
+        "id": "4736263a-50f5-49cb-b1dd-5093b07578dc",
+        "order_id": "41d04e69-cefb-41b5-a41a-99cfdb468a6f",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-031",
+        "external_id": "EXTPAY-9461",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473878"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "f40b698c-5ab3-44c0-8eea-a938bc642905",
+        "order_id": "41d04e69-cefb-41b5-a41a-99cfdb468a6f"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "02453ebb-b28c-4a72-8e66-8df34876b0d1",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "8305e244-02f2-4a32-b12a-469c7c0b0c92",
+      "order_number": "ORD-20240512-0032",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "19db6e18-1e0b-4491-a672-45ee960668f1",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "7794591f-5e84-4056-b0de-cb730b461352",
+        "delivery_id": "477e3bfa-ae82-4766-8437-aeca3b23061a",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "02453ebb-b28c-4a72-8e66-8df34876b0d1"
+      }
+    ],
+    "payment": [
+      {
+        "id": "dacefce4-d0b4-4d15-94fa-054882c3ad99",
+        "order_id": "02453ebb-b28c-4a72-8e66-8df34876b0d1",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-032",
+        "external_id": "EXTPAY-9462",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473879"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "f1e593c3-8169-4d5f-a5a5-7591aac0898d",
+        "order_id": "02453ebb-b28c-4a72-8e66-8df34876b0d1"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "3e9b02ef-80e3-4a2a-9cd6-00ce030ed168",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "ece2f899-950a-4d4b-9c84-54ad6af7fc48",
+      "order_number": "ORD-20240512-0033",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "38a4d317-1875-444a-8921-ca58b86f3774",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "268a35b6-f0ed-4c6d-819c-c5f76c2a99d9",
+        "delivery_id": "61cc5628-d0a4-4779-a2c3-cff7ca5ce9c2",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "3e9b02ef-80e3-4a2a-9cd6-00ce030ed168"
+      }
+    ],
+    "payment": [
+      {
+        "id": "a7becf49-7298-40d6-a316-e3730b00d7bc",
+        "order_id": "3e9b02ef-80e3-4a2a-9cd6-00ce030ed168",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-033",
+        "external_id": "EXTPAY-9463",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473880"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "6c24ffac-ff9c-43a6-8dc4-6802004970f7",
+        "order_id": "3e9b02ef-80e3-4a2a-9cd6-00ce030ed168"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "4d48664a-7375-471f-b110-c73f06609f2c",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "514e883f-bb78-47f9-be16-9adbbc7548b3",
+      "order_number": "ORD-20240512-0034",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "14482833-445f-45e8-8502-b9956fc27118",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "54d8e6f6-1746-43b0-8630-b2f894d0797f",
+        "delivery_id": "69260846-7e4a-4f73-a687-3f6cbee3e95e",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "4d48664a-7375-471f-b110-c73f06609f2c"
+      }
+    ],
+    "payment": [
+      {
+        "id": "5105760a-b1fe-4fa9-9cc3-f6a8a3016c98",
+        "order_id": "4d48664a-7375-471f-b110-c73f06609f2c",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-034",
+        "external_id": "EXTPAY-9464",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473881"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "68d32cff-1d22-4550-b68f-2b73ca13fef9",
+        "order_id": "4d48664a-7375-471f-b110-c73f06609f2c"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "c2d1cc6e-ff8d-4933-be72-fa549953a5ed",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "176b6cf0-d937-4ed2-9e5e-cf27b974e89b",
+      "order_number": "ORD-20240512-0035",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "ee363f9d-0c54-462c-a6ca-b98fdfba9a19",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "ac1224a9-9f5c-4a2c-baee-ee00cfcb7415",
+        "delivery_id": "f121d185-94dc-46fc-b5fc-7c6132215f7b",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "c2d1cc6e-ff8d-4933-be72-fa549953a5ed"
+      }
+    ],
+    "payment": [
+      {
+        "id": "ddd59324-2ef5-4dac-98e1-8ce229a8a7aa",
+        "order_id": "c2d1cc6e-ff8d-4933-be72-fa549953a5ed",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-035",
+        "external_id": "EXTPAY-9465",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473882"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "4c982f8e-2acd-421d-8195-6095630a6f6c",
+        "order_id": "c2d1cc6e-ff8d-4933-be72-fa549953a5ed"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "32b2f3a6-7ecb-432f-8532-ab36b3f23993",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "7ab2bf75-c0a9-4a57-b661-0efd363cb08b",
+      "order_number": "ORD-20240512-0036",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "9845e25b-42a3-495b-a543-9f23802042ce",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "f02545cc-71f1-432c-9330-829e89e006a6",
+        "delivery_id": "890456b4-a14c-48b4-8fb4-736b1cb37702",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "32b2f3a6-7ecb-432f-8532-ab36b3f23993"
+      }
+    ],
+    "payment": [
+      {
+        "id": "d1f8c559-68fc-410b-87e6-ef2f8123d3e5",
+        "order_id": "32b2f3a6-7ecb-432f-8532-ab36b3f23993",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-036",
+        "external_id": "EXTPAY-9466",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473883"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "d027630a-1095-40ad-9786-91d17c50efa0",
+        "order_id": "32b2f3a6-7ecb-432f-8532-ab36b3f23993"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "f2afb818-c8f0-45f1-9996-53bea8f69fe7",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "f69f61d2-55a6-4942-9f11-38ae80f74581",
+      "order_number": "ORD-20240512-0037",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "78034529-f527-4ded-a8da-d4f841cc599a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "87d58cc3-39f4-48a9-97ca-bfd97d56e3fe",
+        "delivery_id": "bef8b804-32f6-4756-b0d7-6a336d103b54",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "f2afb818-c8f0-45f1-9996-53bea8f69fe7"
+      }
+    ],
+    "payment": [
+      {
+        "id": "aac71e9e-e8df-4065-a5aa-07881829e9ba",
+        "order_id": "f2afb818-c8f0-45f1-9996-53bea8f69fe7",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-037",
+        "external_id": "EXTPAY-9467",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473884"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "87063202-40bc-49dd-ad08-4f884e43cbec",
+        "order_id": "f2afb818-c8f0-45f1-9996-53bea8f69fe7"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "8a35469c-ae4c-47b3-80d7-80250fc557e0",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "10a8b041-e887-49f8-ac6c-f99a0c83d9f5",
+      "order_number": "ORD-20240512-0038",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "94dd3ce0-48e6-4cd9-9a24-4abfff6cd444",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "71a80cb3-684b-46f2-bafb-5b564fa44aa7",
+        "delivery_id": "49c5f0e5-d9ba-4eff-8b3c-eb33017fb9a0",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "8a35469c-ae4c-47b3-80d7-80250fc557e0"
+      }
+    ],
+    "payment": [
+      {
+        "id": "c754ce08-62e4-4e66-b159-4914fd65ec43",
+        "order_id": "8a35469c-ae4c-47b3-80d7-80250fc557e0",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-038",
+        "external_id": "EXTPAY-9468",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473885"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "790d0e3b-85bd-48c8-b743-cff3110e34a3",
+        "order_id": "8a35469c-ae4c-47b3-80d7-80250fc557e0"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "44c4f3bb-dcf6-4bea-bb62-cbba41a66d03",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "a7b112f9-14ea-4f73-ac39-f020272093a1",
+      "order_number": "ORD-20240512-0039",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "2f794767-49fb-446c-8d8c-45ac607cb90a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "877f5f38-eaed-4391-b50d-dc3eb272e834",
+        "delivery_id": "7342d876-4349-4e56-86c8-65efe63a7a4a",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "44c4f3bb-dcf6-4bea-bb62-cbba41a66d03"
+      }
+    ],
+    "payment": [
+      {
+        "id": "72baf499-8b70-4f74-9bde-affb0ea6c11c",
+        "order_id": "44c4f3bb-dcf6-4bea-bb62-cbba41a66d03",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-039",
+        "external_id": "EXTPAY-9469",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473886"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "1fbaecff-318d-45e7-92ba-aeb1aae947a4",
+        "order_id": "44c4f3bb-dcf6-4bea-bb62-cbba41a66d03"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "1fbc06ce-ca3a-450e-ab69-fc4f733d178a",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "d645b3f1-20bb-4048-ab78-d6090c8fb853",
+      "order_number": "ORD-20240512-0040",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "67b2d0d5-4967-4a95-8d44-32433116a286",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "3c9d78ed-cf5a-431b-a69d-b1c76915cf29",
+        "delivery_id": "1ae8048b-9717-4e4a-9232-08e5af57ea64",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "1fbc06ce-ca3a-450e-ab69-fc4f733d178a"
+      }
+    ],
+    "payment": [
+      {
+        "id": "435eb9fc-3fdd-4ec1-aec2-a4373c91d79a",
+        "order_id": "1fbc06ce-ca3a-450e-ab69-fc4f733d178a",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-040",
+        "external_id": "EXTPAY-9470",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473887"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "fb0e80b3-44f3-4614-984d-d94a75a2bfca",
+        "order_id": "1fbc06ce-ca3a-450e-ab69-fc4f733d178a"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "8b22ba0e-b9f9-478f-8971-31bde27baab9",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "12c62a16-deda-4596-9623-a56959d532d5",
+      "order_number": "ORD-20240512-0041",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "b27b6884-5938-4646-99b8-8ef4243bfbf4",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "b19744fd-2746-47a5-9adb-86f2d78b9037",
+        "delivery_id": "218851d9-e15d-4f20-8364-b6e7dfe2e30d",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "8b22ba0e-b9f9-478f-8971-31bde27baab9"
+      }
+    ],
+    "payment": [
+      {
+        "id": "f5822afc-af1c-4f19-a226-1f98378d38bb",
+        "order_id": "8b22ba0e-b9f9-478f-8971-31bde27baab9",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-041",
+        "external_id": "EXTPAY-9471",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473888"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "f7d95d40-b0c9-4d8a-bf62-ede3d87a987d",
+        "order_id": "8b22ba0e-b9f9-478f-8971-31bde27baab9"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "d1f82691-10c4-4c28-b864-fb3f29abfddf",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "4fbd5197-1a44-4cba-8e39-911c962958d9",
+      "order_number": "ORD-20240512-0042",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "bb82e0a5-374c-48fc-bedd-494109893e79",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "beeadecd-4c63-4d78-bd21-b71821977ab3",
+        "delivery_id": "6b408d23-f904-43e2-a869-908eeb95ae73",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "d1f82691-10c4-4c28-b864-fb3f29abfddf"
+      }
+    ],
+    "payment": [
+      {
+        "id": "6279f3bc-33d5-4ee0-94f3-bb98becddb31",
+        "order_id": "d1f82691-10c4-4c28-b864-fb3f29abfddf",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-042",
+        "external_id": "EXTPAY-9472",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473889"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "8424483e-ebd2-458e-8a40-c20abe3d8ee2",
+        "order_id": "d1f82691-10c4-4c28-b864-fb3f29abfddf"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "a43c55be-6c7f-4b45-b17e-2af135e18a4f",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "515c31d4-9c3d-4514-ae07-79f5597dde8b",
+      "order_number": "ORD-20240512-0043",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "2bc52e4e-d267-4083-a209-c47a16c02e23",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "98a51fe3-e147-4396-99f8-51a834223017",
+        "delivery_id": "fad8b854-1ad8-4d4b-b752-65a1bcc49197",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "a43c55be-6c7f-4b45-b17e-2af135e18a4f"
+      }
+    ],
+    "payment": [
+      {
+        "id": "3b43b3f5-8894-4dfb-96bc-364302640e49",
+        "order_id": "a43c55be-6c7f-4b45-b17e-2af135e18a4f",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-043",
+        "external_id": "EXTPAY-9473",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473890"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "cfe6e69c-3fd5-4bf6-a7c4-699891cfc9ce",
+        "order_id": "a43c55be-6c7f-4b45-b17e-2af135e18a4f"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "a883ed72-c745-4dfa-a141-7aa4dd694582",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "9f7cba67-6238-43fc-a54e-aaacd26b2f22",
+      "order_number": "ORD-20240512-0044",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "2be87ce4-9478-437d-8b20-c09ff62ec495",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "bbe073f7-46b2-4b3c-8fac-a69df84fc152",
+        "delivery_id": "4fc00e53-2e49-434d-8c48-e1ab36c07d5b",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "a883ed72-c745-4dfa-a141-7aa4dd694582"
+      }
+    ],
+    "payment": [
+      {
+        "id": "6136d8e9-0929-4448-a4dc-91119ef46df9",
+        "order_id": "a883ed72-c745-4dfa-a141-7aa4dd694582",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-044",
+        "external_id": "EXTPAY-9474",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473891"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "08ec32d8-6ae5-4306-ba1a-4fe197ea5901",
+        "order_id": "a883ed72-c745-4dfa-a141-7aa4dd694582"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "1a4a3bb4-ea51-4b67-adc4-8aab6e810838",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "dc1615f4-d3b2-442c-8a78-1e0647e2a3c0",
+      "order_number": "ORD-20240512-0045",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "aeb996cc-62a3-40f8-a2ed-cf17baaf2777",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "96f6b1f8-9d50-4ad3-9d23-62ddcf17d5f1",
+        "delivery_id": "6fe98486-f045-435d-9395-8a27cff98b78",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "1a4a3bb4-ea51-4b67-adc4-8aab6e810838"
+      }
+    ],
+    "payment": [
+      {
+        "id": "aa073f76-8c3d-45b3-8233-83eebee09d36",
+        "order_id": "1a4a3bb4-ea51-4b67-adc4-8aab6e810838",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-045",
+        "external_id": "EXTPAY-9475",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473892"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "861781ee-f781-4733-9ab8-54d1ca3ba587",
+        "order_id": "1a4a3bb4-ea51-4b67-adc4-8aab6e810838"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "a2a7c0ec-c70f-4631-864b-d41b2c982cfd",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "a36f6fa1-d257-4bd1-bdc3-e5bb2ebef91b",
+      "order_number": "ORD-20240512-0046",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "5fb2ca00-a153-4566-92a4-680fb69d432a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "bd099434-ed0f-4eda-b30b-fdeb9455a24a",
+        "delivery_id": "6152c928-e95f-473f-9f80-aa36a2e72d57",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "a2a7c0ec-c70f-4631-864b-d41b2c982cfd"
+      }
+    ],
+    "payment": [
+      {
+        "id": "3cf15a9b-d85e-4c6a-94eb-b61a3d1cffd3",
+        "order_id": "a2a7c0ec-c70f-4631-864b-d41b2c982cfd",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-046",
+        "external_id": "EXTPAY-9476",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473893"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "0717910d-72aa-47eb-8f73-749e5681e1b7",
+        "order_id": "a2a7c0ec-c70f-4631-864b-d41b2c982cfd"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "22e2576f-ac67-4167-bf96-9cddede538f2",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "234db7b2-c564-4ce3-9033-574402f223be",
+      "order_number": "ORD-20240512-0047",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "ae43f0b6-b19b-4626-89ed-c7a5988688f5",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "95f1d8c3-1f5e-446c-81a5-0177bc7cd55a",
+        "delivery_id": "161d1f8f-1eb4-4591-b52c-0f35cf16980a",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "22e2576f-ac67-4167-bf96-9cddede538f2"
+      }
+    ],
+    "payment": [
+      {
+        "id": "5b5d7885-f733-4dc6-94ec-eaec606434d3",
+        "order_id": "22e2576f-ac67-4167-bf96-9cddede538f2",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-047",
+        "external_id": "EXTPAY-9477",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473894"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "304e7f81-8682-4cfd-9e77-d2ad9830f5ba",
+        "order_id": "22e2576f-ac67-4167-bf96-9cddede538f2"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "dd18fc97-8ec9-42e4-9750-88094b68851a",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "a95ce4b3-c423-412e-8900-a5a728de3d70",
+      "order_number": "ORD-20240512-0048",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "147a0024-9125-4485-81d3-c4bc66aa59fb",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "b8f34460-7972-4ed1-98fa-83f11c77b504",
+        "delivery_id": "b47fe3d3-658f-42fd-bb20-c54720f9067c",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "dd18fc97-8ec9-42e4-9750-88094b68851a"
+      }
+    ],
+    "payment": [
+      {
+        "id": "e382763d-9450-41f7-b623-7e77c31c8392",
+        "order_id": "dd18fc97-8ec9-42e4-9750-88094b68851a",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-048",
+        "external_id": "EXTPAY-9478",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473895"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "3dc3a61c-cbf0-4f88-a916-48c0c884bbeb",
+        "order_id": "dd18fc97-8ec9-42e4-9750-88094b68851a"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "a603cefe-a3fa-45eb-bcc6-df111c614442",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "ee5092ea-63ff-4b56-8330-ac2e4b7be1bb",
+      "order_number": "ORD-20240512-0049",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "a7c7d8d4-3d99-4755-a1e4-f4c798793902",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "30d82e86-f402-41f6-bb4d-56dbbe43be41",
+        "delivery_id": "678502cf-b0f4-403d-883f-ffe10dd7cf0c",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "a603cefe-a3fa-45eb-bcc6-df111c614442"
+      }
+    ],
+    "payment": [
+      {
+        "id": "e9adf583-8fa8-42aa-9656-5e7d2aa3e5d7",
+        "order_id": "a603cefe-a3fa-45eb-bcc6-df111c614442",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-049",
+        "external_id": "EXTPAY-9479",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473896"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "be59c351-241a-4953-8f1e-63486324ced4",
+        "order_id": "a603cefe-a3fa-45eb-bcc6-df111c614442"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "623628cd-84ca-4f20-b6c2-230dccd25670",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "b736bbd6-26e0-4ea5-8bac-832a7e849e92",
+      "order_number": "ORD-20240512-0050",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "70c91ced-e30e-4539-a0d9-302f176cf89d",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "eb984d34-d153-455a-805a-c3983732bd58",
+        "delivery_id": "057753ac-1028-409c-af4b-1e712da64ded",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "623628cd-84ca-4f20-b6c2-230dccd25670"
+      }
+    ],
+    "payment": [
+      {
+        "id": "991ed503-943c-4b16-8012-7339f9b5e03d",
+        "order_id": "623628cd-84ca-4f20-b6c2-230dccd25670",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-050",
+        "external_id": "EXTPAY-9480",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473897"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "1f57d467-ab96-4236-b0c3-41590bb2924c",
+        "order_id": "623628cd-84ca-4f20-b6c2-230dccd25670"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "94b04a01-c180-4fff-b5e3-cab4e2790dc2",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "7045b80a-602a-4b2a-ada2-54d619098bae",
+      "order_number": "ORD-20240512-0051",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "410a4958-4905-490b-a397-1f211a9555d6",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "429686cd-2ae3-4b91-966d-37d4e7e5fe5d",
+        "delivery_id": "fddb7d85-80ad-42b4-b7f4-3259c7d8f08b",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "94b04a01-c180-4fff-b5e3-cab4e2790dc2"
+      }
+    ],
+    "payment": [
+      {
+        "id": "21f163f9-690e-4dba-9f50-b850046beaf6",
+        "order_id": "94b04a01-c180-4fff-b5e3-cab4e2790dc2",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-051",
+        "external_id": "EXTPAY-9481",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473898"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "15af2030-d88a-4422-82a3-b9e9e33f00db",
+        "order_id": "94b04a01-c180-4fff-b5e3-cab4e2790dc2"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "56c0037a-c20c-40a1-a28f-821b52f14302",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "512f9e5c-2337-403b-9e6c-344ff4765421",
+      "order_number": "ORD-20240512-0052",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "29fdf333-6b49-415f-aa63-4a151573aa40",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "ee94e9ef-d764-4ac7-9438-3464f50896bc",
+        "delivery_id": "7c5b2d44-44eb-47db-9e8e-e5648f0165d3",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "56c0037a-c20c-40a1-a28f-821b52f14302"
+      }
+    ],
+    "payment": [
+      {
+        "id": "29d73fa3-f3ce-4a23-a55d-76e9a8512864",
+        "order_id": "56c0037a-c20c-40a1-a28f-821b52f14302",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-052",
+        "external_id": "EXTPAY-9482",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473899"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "0d3d4a66-3f78-4aa5-80ec-2385f13584a7",
+        "order_id": "56c0037a-c20c-40a1-a28f-821b52f14302"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "06d4b930-747a-46c1-babb-fb1a2449bcf7",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "34354897-c69e-4fac-800a-7efee8eb2a40",
+      "order_number": "ORD-20240512-0053",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "a98762dc-b2af-4e16-b7de-2704507f8ecf",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "d6557319-7b83-4bfb-8cb8-f9b4cf701cc4",
+        "delivery_id": "a5c6fd15-b806-40c9-9e84-92c146be7c87",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "06d4b930-747a-46c1-babb-fb1a2449bcf7"
+      }
+    ],
+    "payment": [
+      {
+        "id": "3178abc4-5ca6-4aac-9b7f-436b29fdde43",
+        "order_id": "06d4b930-747a-46c1-babb-fb1a2449bcf7",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-053",
+        "external_id": "EXTPAY-9483",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473900"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "aa987487-92c2-49b2-8fe1-458fb7fa05ac",
+        "order_id": "06d4b930-747a-46c1-babb-fb1a2449bcf7"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "411aeec1-f6da-4397-9ce4-a025fb9a8a68",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "8a9db6ef-ab74-4902-93c2-5e58881ff1d0",
+      "order_number": "ORD-20240512-0054",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "b63db72b-8b7c-45ea-82ac-bb019a29ec14",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "67ef92a8-511d-4980-8f74-807a5b05fac4",
+        "delivery_id": "aad9e10f-9332-4b35-95f4-c9e6d2afb14c",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "411aeec1-f6da-4397-9ce4-a025fb9a8a68"
+      }
+    ],
+    "payment": [
+      {
+        "id": "0a2ca0e4-1415-4975-ae2c-c96d61ae7b17",
+        "order_id": "411aeec1-f6da-4397-9ce4-a025fb9a8a68",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-054",
+        "external_id": "EXTPAY-9484",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473901"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "eeaa2c5e-c127-4aad-9057-98ddf0176146",
+        "order_id": "411aeec1-f6da-4397-9ce4-a025fb9a8a68"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "ef64a2d8-732c-4cee-9c21-a150928254f6",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "b5e6be3c-aa5c-44ed-8d9b-f7949355ce4d",
+      "order_number": "ORD-20240512-0055",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "d1300ea0-718e-436a-91f5-4151ff61502e",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "b0626a96-63ab-46c1-b66b-007dbaa38dbc",
+        "delivery_id": "6e0aa044-a24d-43cb-be99-2389e8ab5fa4",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "ef64a2d8-732c-4cee-9c21-a150928254f6"
+      }
+    ],
+    "payment": [
+      {
+        "id": "a6c0617a-27c6-4223-bb2f-288bcfb5b7ee",
+        "order_id": "ef64a2d8-732c-4cee-9c21-a150928254f6",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-055",
+        "external_id": "EXTPAY-9485",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473902"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "1b21ef6e-597f-43c9-be82-2a4879f7c151",
+        "order_id": "ef64a2d8-732c-4cee-9c21-a150928254f6"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "1e9f80cc-db88-490f-a62a-f42126fd0e2c",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "99084e30-8a32-4cfa-ada8-f9e71d54158a",
+      "order_number": "ORD-20240512-0056",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "55ac293a-c9fc-4902-8963-ef73870d4dd7",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "204de563-2462-405b-af5b-11802d6579e4",
+        "delivery_id": "e4fb678b-b717-4286-8c50-f1f006eca55a",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "1e9f80cc-db88-490f-a62a-f42126fd0e2c"
+      }
+    ],
+    "payment": [
+      {
+        "id": "c3977744-cc7d-40d6-8aa1-741083e79dce",
+        "order_id": "1e9f80cc-db88-490f-a62a-f42126fd0e2c",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-056",
+        "external_id": "EXTPAY-9486",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473903"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "8ac1275c-29f1-4c0a-b1a8-753928fe0552",
+        "order_id": "1e9f80cc-db88-490f-a62a-f42126fd0e2c"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "3fd6c90f-ad24-40f7-8255-57845411593d",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "16a34709-8b68-4bbc-8526-6b2b89a2e9da",
+      "order_number": "ORD-20240512-0057",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "04e20f58-9ee7-44a9-a068-fe98741bb24d",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "5b5de4fc-a34a-4823-a33d-200f8e442389",
+        "delivery_id": "8c0dda75-e4b3-4532-9c26-3aaa6ecaa5a7",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "3fd6c90f-ad24-40f7-8255-57845411593d"
+      }
+    ],
+    "payment": [
+      {
+        "id": "115018c8-5d4b-45e4-a017-ab76cd96926e",
+        "order_id": "3fd6c90f-ad24-40f7-8255-57845411593d",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-057",
+        "external_id": "EXTPAY-9487",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473904"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "1ea28ca0-7154-4de3-9978-a84c90ea41fe",
+        "order_id": "3fd6c90f-ad24-40f7-8255-57845411593d"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "8d5f8d5c-af56-4182-8318-b537feab5b6c",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "3a73f906-51e9-454e-ba16-014a0b274bec",
+      "order_number": "ORD-20240512-0058",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "b90fb815-8027-4fd4-a213-a8666f58d607",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "d2d24b82-db0f-434e-9553-bbaf7367a7dc",
+        "delivery_id": "8a4c7278-34d6-4ab1-93fc-9002d2e44e0a",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "8d5f8d5c-af56-4182-8318-b537feab5b6c"
+      }
+    ],
+    "payment": [
+      {
+        "id": "4595869b-119b-41c2-8126-211b3b11970d",
+        "order_id": "8d5f8d5c-af56-4182-8318-b537feab5b6c",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-058",
+        "external_id": "EXTPAY-9488",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473905"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "1f8140ea-1695-470e-9a92-9b8d69cfcf8f",
+        "order_id": "8d5f8d5c-af56-4182-8318-b537feab5b6c"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "30b7e5ff-b93b-4409-b6d9-157997161615",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "16e2deac-2dd6-44d5-89ad-d3779ccfb1f2",
+      "order_number": "ORD-20240512-0059",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "fe3541b1-94a3-4912-b2ac-36c957a79c0a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "84e609b7-ecf8-4685-bc92-c51429e62be1",
+        "delivery_id": "c438d08f-148b-4eba-adf4-2b3ffddb70ee",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "30b7e5ff-b93b-4409-b6d9-157997161615"
+      }
+    ],
+    "payment": [
+      {
+        "id": "de5b2600-3337-4367-b9fe-d648e22397ea",
+        "order_id": "30b7e5ff-b93b-4409-b6d9-157997161615",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-059",
+        "external_id": "EXTPAY-9489",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473906"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "ed3a8349-870a-4879-aa61-21e727bc3937",
+        "order_id": "30b7e5ff-b93b-4409-b6d9-157997161615"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "239fcc2a-e11a-476f-9d18-e0b41e57b1ed",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "8a6c7c4b-9946-466f-98f7-ea87a33b0af6",
+      "order_number": "ORD-20240512-0060",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "e75f7135-4587-47c8-8d86-6f984532e012",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "58f005e3-a171-439c-bd67-148e40276fd9",
+        "delivery_id": "52a208e4-9530-4c92-8bd9-05577f126dd5",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "239fcc2a-e11a-476f-9d18-e0b41e57b1ed"
+      }
+    ],
+    "payment": [
+      {
+        "id": "8a3af87d-300e-4bcf-8d63-58e44e1fbc83",
+        "order_id": "239fcc2a-e11a-476f-9d18-e0b41e57b1ed",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-060",
+        "external_id": "EXTPAY-9490",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473907"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "1a8065b6-67de-417d-97c6-5378d575e0cf",
+        "order_id": "239fcc2a-e11a-476f-9d18-e0b41e57b1ed"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "980f9053-decf-4be0-bb46-4492bbadd9da",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "44e32515-6b0b-4d60-b21f-02b5910de7e4",
+      "order_number": "ORD-20240512-0061",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "db15bfeb-0f3a-4d9c-8341-46b33bd21a2a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "0a2c5444-c9d9-4962-9bf6-26fb587fe507",
+        "delivery_id": "67c993d0-6a6f-4200-8b1d-deaafaa701a3",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "980f9053-decf-4be0-bb46-4492bbadd9da"
+      }
+    ],
+    "payment": [
+      {
+        "id": "5573e192-0b13-4f22-8689-e18b4bbb42ee",
+        "order_id": "980f9053-decf-4be0-bb46-4492bbadd9da",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-061",
+        "external_id": "EXTPAY-9491",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473908"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "6aba0a9f-c980-4ba5-ad92-36daa89019d6",
+        "order_id": "980f9053-decf-4be0-bb46-4492bbadd9da"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "4c180df6-4f36-4ca0-9500-0db4285a1a61",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "6f167f3e-caca-4104-be5b-7f3691b22c79",
+      "order_number": "ORD-20240512-0062",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "13798852-bf2e-4ae7-8323-c67c5179cc2b",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "24d2f587-31f1-4965-b858-ee1112ddd54f",
+        "delivery_id": "3e4178a8-043e-4aef-8f85-7d8e73fb9e24",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "4c180df6-4f36-4ca0-9500-0db4285a1a61"
+      }
+    ],
+    "payment": [
+      {
+        "id": "ec93a998-628e-4d18-8a03-24524d339d4f",
+        "order_id": "4c180df6-4f36-4ca0-9500-0db4285a1a61",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-062",
+        "external_id": "EXTPAY-9492",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473909"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "b3f802a3-798a-4324-b972-64095ca16732",
+        "order_id": "4c180df6-4f36-4ca0-9500-0db4285a1a61"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "974e27e6-29c9-4036-a9af-40cf8ef8daaf",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "4cba584b-8a5f-4140-855d-16ca4b0127d9",
+      "order_number": "ORD-20240512-0063",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "f7ce109b-2f19-4180-bcd1-40d5c9bb1ac1",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "81a653b5-96f7-4d1a-863b-72acc3f5a095",
+        "delivery_id": "b6dd223a-10a8-4c21-9aff-aacb05df999c",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "974e27e6-29c9-4036-a9af-40cf8ef8daaf"
+      }
+    ],
+    "payment": [
+      {
+        "id": "1652af3d-ce62-45c8-ba22-eb33ebd21a8a",
+        "order_id": "974e27e6-29c9-4036-a9af-40cf8ef8daaf",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-063",
+        "external_id": "EXTPAY-9493",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473910"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "9bc5f28c-1b4c-4bd8-b3d9-fa84e98dca63",
+        "order_id": "974e27e6-29c9-4036-a9af-40cf8ef8daaf"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "03822522-e626-40bf-a30c-66a6a6817b5f",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "090c9fec-5cd1-44a3-9a85-12aae744aec3",
+      "order_number": "ORD-20240512-0064",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "f1a461ce-e4c1-43b8-8fd7-449e35e4f824",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "38dfcfc0-35b6-4d83-b79d-85f1445e58d9",
+        "delivery_id": "5ef1ca23-ed26-4204-bb0a-84c507782f7a",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "03822522-e626-40bf-a30c-66a6a6817b5f"
+      }
+    ],
+    "payment": [
+      {
+        "id": "aac54eaa-1847-45a5-8552-66c0f56b6549",
+        "order_id": "03822522-e626-40bf-a30c-66a6a6817b5f",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-064",
+        "external_id": "EXTPAY-9494",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473911"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "e3781b9e-46b1-4226-9c55-a284aed6f869",
+        "order_id": "03822522-e626-40bf-a30c-66a6a6817b5f"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "f31c56d6-a515-48c0-b03b-af5d5e11bf9c",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "e5fe40b0-883f-4432-be66-9d5b4dacfa7d",
+      "order_number": "ORD-20240512-0065",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "7f546b0f-b0ed-4a83-a62a-e6f34279488a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "eefc85b0-5174-4f6a-9e3a-13cd8113920e",
+        "delivery_id": "0fea2389-e6a3-4bfe-b59c-efa3cb1eb71a",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "f31c56d6-a515-48c0-b03b-af5d5e11bf9c"
+      }
+    ],
+    "payment": [
+      {
+        "id": "fa11a140-ac47-46a8-92d3-f660bafb9d0f",
+        "order_id": "f31c56d6-a515-48c0-b03b-af5d5e11bf9c",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-065",
+        "external_id": "EXTPAY-9495",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473912"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "626574ac-100c-4fc7-9b46-5000140c699b",
+        "order_id": "f31c56d6-a515-48c0-b03b-af5d5e11bf9c"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "fac62d2a-a9fa-4df3-b8ab-3133a1a3127b",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "b7b9efec-8826-4713-84e6-1d744e95d7fe",
+      "order_number": "ORD-20240512-0066",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "75c53368-8353-4a62-8786-c813142fe68a",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "257e7408-02c1-4b8d-a4ac-de2d3b2c30ad",
+        "delivery_id": "1be36413-9f5f-4d5f-8c53-d2a125c7c340",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "fac62d2a-a9fa-4df3-b8ab-3133a1a3127b"
+      }
+    ],
+    "payment": [
+      {
+        "id": "6e96ceb4-7558-4294-a737-6c4eea5923f7",
+        "order_id": "fac62d2a-a9fa-4df3-b8ab-3133a1a3127b",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-066",
+        "external_id": "EXTPAY-9496",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473913"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "82887d9e-5044-4aba-be9c-c7848512e6c0",
+        "order_id": "fac62d2a-a9fa-4df3-b8ab-3133a1a3127b"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "296ba0e9-66d6-466b-95af-0bdca24e102c",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "0e8c8774-e5f0-4247-b6f4-9662debfc548",
+      "order_number": "ORD-20240512-0067",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "b36f9349-cd44-4aed-9e14-0f1dd865fdbc",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "8cc894b2-55f7-4b7a-9084-9478a47886a5",
+        "delivery_id": "926fe7ff-c61c-45f2-87a2-f6f8e5bc5521",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "296ba0e9-66d6-466b-95af-0bdca24e102c"
+      }
+    ],
+    "payment": [
+      {
+        "id": "5c6596ef-435f-4d73-9efc-38bbcec1d422",
+        "order_id": "296ba0e9-66d6-466b-95af-0bdca24e102c",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-067",
+        "external_id": "EXTPAY-9497",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473914"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "da021c15-bac1-457f-ac54-0beebd7070ba",
+        "order_id": "296ba0e9-66d6-466b-95af-0bdca24e102c"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "6b20d5d3-e017-44ae-acae-54043d032d18",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "ed3191a4-bcbe-4e63-818d-1c58d766936d",
+      "order_number": "ORD-20240512-0068",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "a1725bdd-4f34-4eca-82f5-194316dec209",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "63a27f10-b2d2-4edb-a910-ce392c2d2e6d",
+        "delivery_id": "0518d72a-cf0c-47ea-aeeb-1de3c8138aa8",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "6b20d5d3-e017-44ae-acae-54043d032d18"
+      }
+    ],
+    "payment": [
+      {
+        "id": "43e3de8f-ed48-4882-8172-49f749fd94d6",
+        "order_id": "6b20d5d3-e017-44ae-acae-54043d032d18",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-068",
+        "external_id": "EXTPAY-9498",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473915"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "239a1769-7579-4d99-af48-455fa55e952a",
+        "order_id": "6b20d5d3-e017-44ae-acae-54043d032d18"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "35a1bbe5-dcdb-4fba-abe6-f7299c8dc52e",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "86583ef3-4b5b-4ba5-9a56-c9bef2c62e3a",
+      "order_number": "ORD-20240512-0069",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "a20be2d3-bd0a-4067-a451-2807666825b9",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "05ecb000-6bba-43e5-9fc1-55962dc02f95",
+        "delivery_id": "8501793d-cd8d-4482-9c99-08e30738432e",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "35a1bbe5-dcdb-4fba-abe6-f7299c8dc52e"
+      }
+    ],
+    "payment": [
+      {
+        "id": "d88f085d-b707-4e79-b8f3-3355cda1549b",
+        "order_id": "35a1bbe5-dcdb-4fba-abe6-f7299c8dc52e",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-069",
+        "external_id": "EXTPAY-9499",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473916"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "1fdc2e5d-df88-4f87-820c-b8a127d893bb",
+        "order_id": "35a1bbe5-dcdb-4fba-abe6-f7299c8dc52e"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "8ad3d202-3ae4-403e-9d43-e067f9f674f7",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "73b5b43d-643e-42ac-89ef-82ee1994d2a8",
+      "order_number": "ORD-20240512-0070",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "53a99040-3ba1-4b91-8701-7a69d62a99f7",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "4db04c20-f1f0-4db5-bc3c-303e4118494a",
+        "delivery_id": "852a05d3-5526-4d46-a802-398d83c02083",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "8ad3d202-3ae4-403e-9d43-e067f9f674f7"
+      }
+    ],
+    "payment": [
+      {
+        "id": "5c4d7ff0-95a2-4c3d-83a0-4dd5cd710e6c",
+        "order_id": "8ad3d202-3ae4-403e-9d43-e067f9f674f7",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-070",
+        "external_id": "EXTPAY-9500",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473917"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "b4394a3f-ecc0-4899-bc00-3426f80489e2",
+        "order_id": "8ad3d202-3ae4-403e-9d43-e067f9f674f7"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "cefe1bd2-1e3c-4237-93ae-d9d165861f12",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "2e5fba36-b3ad-4325-aa57-a4ef7069f1ae",
+      "order_number": "ORD-20240512-0071",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "36af6306-ce37-4401-9a7d-70fd63085d59",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "48f6ac7f-475b-45e8-86ad-5aa377767836",
+        "delivery_id": "9bf5abc9-4ba6-4ca9-8317-3997bc4c3afd",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "cefe1bd2-1e3c-4237-93ae-d9d165861f12"
+      }
+    ],
+    "payment": [
+      {
+        "id": "f8fc8779-9039-4360-8314-8600969f2984",
+        "order_id": "cefe1bd2-1e3c-4237-93ae-d9d165861f12",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-071",
+        "external_id": "EXTPAY-9501",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473918"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "df742f66-b4f5-4194-9228-8c694d309eca",
+        "order_id": "cefe1bd2-1e3c-4237-93ae-d9d165861f12"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "d6909f68-40de-47e1-bdd0-eb49ef4b4348",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "7307498a-2dd0-4185-91ef-e4885e4e1255",
+      "order_number": "ORD-20240512-0072",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "4e48410b-f939-412f-8b05-c7058e59f87e",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "9d0a6ef8-a599-4cd9-9361-e71b1ca76aaf",
+        "delivery_id": "ae6b8ff6-f186-4ed9-91ca-320e61a259ae",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "d6909f68-40de-47e1-bdd0-eb49ef4b4348"
+      }
+    ],
+    "payment": [
+      {
+        "id": "ed5ea0a5-9449-4dd3-b61a-eaf098555895",
+        "order_id": "d6909f68-40de-47e1-bdd0-eb49ef4b4348",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-072",
+        "external_id": "EXTPAY-9502",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473919"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "0ace7e45-4b43-4d75-8680-b872ae4c9b05",
+        "order_id": "d6909f68-40de-47e1-bdd0-eb49ef4b4348"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "e4f730bf-9814-49cb-afe6-83b7f72899bf",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "9e3420f7-5e31-4a91-9469-fab601943301",
+      "order_number": "ORD-20240512-0073",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "7c065455-e8f1-41ff-b563-57319c4745d5",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "ba9e2e53-cb2c-4ae5-bdac-b94e5c9d82ce",
+        "delivery_id": "b3fd4cc2-9c95-402a-8e1f-c8302c5d8c3e",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "e4f730bf-9814-49cb-afe6-83b7f72899bf"
+      }
+    ],
+    "payment": [
+      {
+        "id": "ebc6c254-b984-451c-a732-448293139ea6",
+        "order_id": "e4f730bf-9814-49cb-afe6-83b7f72899bf",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-073",
+        "external_id": "EXTPAY-9503",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473920"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "4070e0f3-4629-42db-b429-95ebd7ee8b59",
+        "order_id": "e4f730bf-9814-49cb-afe6-83b7f72899bf"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "967a86da-3138-48d9-9dbb-738c22ccb7e8",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "cf3c147e-df4c-4e99-91db-e494a177c489",
+      "order_number": "ORD-20240512-0074",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "13a4afcb-8125-4a58-88ec-e9d76db3ddc8",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "bf8672fb-8334-4aee-a42f-33787c5e9334",
+        "delivery_id": "501f071d-de6d-4451-aa97-2ddda064dd75",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "967a86da-3138-48d9-9dbb-738c22ccb7e8"
+      }
+    ],
+    "payment": [
+      {
+        "id": "aa13f489-1ffe-4408-8d23-806bfad04cf2",
+        "order_id": "967a86da-3138-48d9-9dbb-738c22ccb7e8",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-074",
+        "external_id": "EXTPAY-9504",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473921"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "d1e43506-715b-4aa6-90cf-e0a39881553a",
+        "order_id": "967a86da-3138-48d9-9dbb-738c22ccb7e8"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "c80c72ad-b95e-4fab-b0db-946104e6acd6",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "de60cd0c-309f-4681-9299-301dc6ae446f",
+      "order_number": "ORD-20240512-0075",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "5cddcb62-9e74-45df-94b8-34328f1ed7b0",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "bf188fb2-b94e-431e-bad3-5a6fb3000b7f",
+        "delivery_id": "d6b16a06-25be-4bd5-9586-6faa8705529d",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "c80c72ad-b95e-4fab-b0db-946104e6acd6"
+      }
+    ],
+    "payment": [
+      {
+        "id": "a10822dd-75f2-4c2d-b809-7dcad71c01b6",
+        "order_id": "c80c72ad-b95e-4fab-b0db-946104e6acd6",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-075",
+        "external_id": "EXTPAY-9505",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473922"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "c4a480c4-c09b-4125-b66b-f40fb32f59f8",
+        "order_id": "c80c72ad-b95e-4fab-b0db-946104e6acd6"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "07880dc7-e5f8-41a3-8922-e7865465e690",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "fa6710ed-d9e1-4bb2-9bef-80cb038a8483",
+      "order_number": "ORD-20240512-0076",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "98535517-7721-4b96-961d-e5c876ab2c42",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "33538c6c-135a-4b8f-9591-14344ab14f51",
+        "delivery_id": "9168e8ec-f82c-466a-9f3e-434b4932a71b",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "07880dc7-e5f8-41a3-8922-e7865465e690"
+      }
+    ],
+    "payment": [
+      {
+        "id": "1cf3dc40-75c5-4b25-a006-66e0598015ba",
+        "order_id": "07880dc7-e5f8-41a3-8922-e7865465e690",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-076",
+        "external_id": "EXTPAY-9506",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473923"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "8e7f5472-9045-4143-a10b-00988d47094a",
+        "order_id": "07880dc7-e5f8-41a3-8922-e7865465e690"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "0a86c38f-9c50-4298-9cf6-0200619b7112",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "744d9ca1-5825-477b-b9af-87859884ab23",
+      "order_number": "ORD-20240512-0077",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "3cbf4cd4-3c6f-4db1-8534-9e03c9f275b7",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "6edbd978-511e-470a-8d09-ed00757c9fdd",
+        "delivery_id": "e6febe55-1063-4be4-982e-e5ea1090963b",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "0a86c38f-9c50-4298-9cf6-0200619b7112"
+      }
+    ],
+    "payment": [
+      {
+        "id": "a1ccda03-2872-4b53-8a55-8122e30f227c",
+        "order_id": "0a86c38f-9c50-4298-9cf6-0200619b7112",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-077",
+        "external_id": "EXTPAY-9507",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473924"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "bde25cc5-169d-4039-aaf3-0be77b6f5cf3",
+        "order_id": "0a86c38f-9c50-4298-9cf6-0200619b7112"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "bf51def7-cfbb-4115-8aec-6d6579baa00a",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "71906115-6ab8-46a6-8089-23b505c9f146",
+      "order_number": "ORD-20240512-0078",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "03808de3-9fb3-432e-aaed-57de7e28f9f2",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "cd4e2991-1823-4476-ab2d-c974070f4679",
+        "delivery_id": "2c606499-eaf2-43cd-ba80-278b63f577fe",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "bf51def7-cfbb-4115-8aec-6d6579baa00a"
+      }
+    ],
+    "payment": [
+      {
+        "id": "0d11ced6-f241-4975-b156-f8295197b44e",
+        "order_id": "bf51def7-cfbb-4115-8aec-6d6579baa00a",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-078",
+        "external_id": "EXTPAY-9508",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473925"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "a113ef99-53ca-4351-9786-4feba25f5ebc",
+        "order_id": "bf51def7-cfbb-4115-8aec-6d6579baa00a"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "2fbb1df2-e98f-4ab0-85e9-29aa703a3031",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "b411bd2a-dd5d-40a1-9259-837a5bd38591",
+      "order_number": "ORD-20240512-0079",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "64e21729-4330-4af3-8a3e-dd43c2b46edc",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "6f4ddaa0-32dc-4bf7-a34f-c36676f04dad",
+        "delivery_id": "3cb96dbb-0f89-4923-a5e5-39fd948f035e",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "2fbb1df2-e98f-4ab0-85e9-29aa703a3031"
+      }
+    ],
+    "payment": [
+      {
+        "id": "28f53048-fe98-4e78-8443-9d94a78421a6",
+        "order_id": "2fbb1df2-e98f-4ab0-85e9-29aa703a3031",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-079",
+        "external_id": "EXTPAY-9509",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473926"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "ff59f164-32b5-4e99-a989-0916404abe42",
+        "order_id": "2fbb1df2-e98f-4ab0-85e9-29aa703a3031"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "919349d2-a615-435c-8739-44e5364ada7f",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "0f3aa356-e0a1-4f83-b456-41664e6232f8",
+      "order_number": "ORD-20240512-0080",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "b6b2fc3c-b231-4680-bcd6-c5a09f345470",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "4ec8a08d-5500-4bba-a893-63feeb964dea",
+        "delivery_id": "3f384afe-1aca-490b-bd12-2a078b133674",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "919349d2-a615-435c-8739-44e5364ada7f"
+      }
+    ],
+    "payment": [
+      {
+        "id": "40e8e33c-e409-4b3d-8c0e-fd1e06f1e8ef",
+        "order_id": "919349d2-a615-435c-8739-44e5364ada7f",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-080",
+        "external_id": "EXTPAY-9510",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473927"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "f5a9c2c8-3b62-4c44-8465-d822a4e661d3",
+        "order_id": "919349d2-a615-435c-8739-44e5364ada7f"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "88b94fa9-6912-43b2-b23f-8cc60b4459f7",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "59369128-e16d-403f-9ead-e0792c9bab7f",
+      "order_number": "ORD-20240512-0081",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "38354002-25c8-4d8e-9ab0-6c5ff1a8bfd1",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "a4be66e9-b2b4-4295-ae71-6405b1b8e109",
+        "delivery_id": "ae33d99e-8412-4818-9ecf-d4b45d7896e3",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "88b94fa9-6912-43b2-b23f-8cc60b4459f7"
+      }
+    ],
+    "payment": [
+      {
+        "id": "bbe2e8ba-f680-4b02-be71-8897c634ad99",
+        "order_id": "88b94fa9-6912-43b2-b23f-8cc60b4459f7",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-081",
+        "external_id": "EXTPAY-9511",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473928"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "9c43d941-828d-4769-a9f9-134d8763414a",
+        "order_id": "88b94fa9-6912-43b2-b23f-8cc60b4459f7"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "9c7473e3-7d26-407a-a725-632e5ec007f6",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "d176cf2e-3de6-4f7a-a033-525ec4462abf",
+      "order_number": "ORD-20240512-0082",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "79451aa7-1288-4b0d-a0ac-419c39367511",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "abe11edd-183f-41a6-8fdd-8dcb4d84d455",
+        "delivery_id": "7061f1ca-3ec1-468b-b8f6-4602b51c909f",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "9c7473e3-7d26-407a-a725-632e5ec007f6"
+      }
+    ],
+    "payment": [
+      {
+        "id": "e84529b6-187a-4155-a15f-319679465913",
+        "order_id": "9c7473e3-7d26-407a-a725-632e5ec007f6",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-082",
+        "external_id": "EXTPAY-9512",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473929"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "61810ecd-230e-4b9d-a026-b4764d2fc70d",
+        "order_id": "9c7473e3-7d26-407a-a725-632e5ec007f6"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "55758352-35ec-4452-89e6-61b9e69016be",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "d3614d72-6baa-4a64-a692-4fbf46fe806d",
+      "order_number": "ORD-20240512-0083",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "991b5835-f3da-46a6-b839-b9afb67569f2",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "3d4dbb75-0dfe-4e3f-ad62-e79fe772d583",
+        "delivery_id": "52a4214e-13d6-4893-9971-332c0fd149a3",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "55758352-35ec-4452-89e6-61b9e69016be"
+      }
+    ],
+    "payment": [
+      {
+        "id": "db931aee-c63a-40d8-9562-d151914a8f9b",
+        "order_id": "55758352-35ec-4452-89e6-61b9e69016be",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-083",
+        "external_id": "EXTPAY-9513",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473930"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "f5c7d079-a696-40af-83b3-6951b81fd305",
+        "order_id": "55758352-35ec-4452-89e6-61b9e69016be"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "b7af9a93-97a9-4dfe-8a14-5e5128c9b9ba",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "f9c623e8-b286-43d9-aedc-c8fe249f7e51",
+      "order_number": "ORD-20240512-0084",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "a44c3047-5a83-4120-be57-c84f58bef011",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "d6e86a03-b78e-4a97-9cb5-dd5a09a6a598",
+        "delivery_id": "1413d2c5-ab0d-403a-b633-8a9c5fd7c112",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "b7af9a93-97a9-4dfe-8a14-5e5128c9b9ba"
+      }
+    ],
+    "payment": [
+      {
+        "id": "418d89f8-6103-4231-98dd-cf671a2ed243",
+        "order_id": "b7af9a93-97a9-4dfe-8a14-5e5128c9b9ba",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-084",
+        "external_id": "EXTPAY-9514",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473931"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "6c7d0192-1c18-4486-8f01-4fe4b78b771b",
+        "order_id": "b7af9a93-97a9-4dfe-8a14-5e5128c9b9ba"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "67e96002-3828-414f-8f92-35ef343eac3b",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "24eb9a41-4739-4685-b1aa-de4e49622794",
+      "order_number": "ORD-20240512-0085",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "1bede8cd-2b0a-4308-86d0-15c76846b7ac",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "638b3082-1ef9-4839-889e-2c867dc4adfe",
+        "delivery_id": "2b009b08-37b4-4cc4-b980-bea8b37abc95",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "67e96002-3828-414f-8f92-35ef343eac3b"
+      }
+    ],
+    "payment": [
+      {
+        "id": "215835bd-25a5-48d9-a3c5-e8b202a15796",
+        "order_id": "67e96002-3828-414f-8f92-35ef343eac3b",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-085",
+        "external_id": "EXTPAY-9515",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473932"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "3ec8cd0d-0003-4dde-b7f0-837603756189",
+        "order_id": "67e96002-3828-414f-8f92-35ef343eac3b"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "046a8a09-ba0f-419f-92ad-8f5a074feced",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "c408a318-2297-4474-a264-bc25aff04939",
+      "order_number": "ORD-20240512-0086",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "262a17f9-b7ae-43cb-ae40-ad1eb78bda2d",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "6ff0a955-5041-4994-bbe4-3ec23699695a",
+        "delivery_id": "65cad502-9058-4008-b5d4-15567b2a49a4",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "046a8a09-ba0f-419f-92ad-8f5a074feced"
+      }
+    ],
+    "payment": [
+      {
+        "id": "4c993492-68c2-4790-aa78-326e8b5ecef2",
+        "order_id": "046a8a09-ba0f-419f-92ad-8f5a074feced",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-086",
+        "external_id": "EXTPAY-9516",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473933"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "e18c2a2e-8557-422d-b5aa-f394a87925fa",
+        "order_id": "046a8a09-ba0f-419f-92ad-8f5a074feced"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "4f05d765-1e60-4b18-8bd9-a51467531a3c",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "7b2868c1-d640-4920-a966-3e3617d42179",
+      "order_number": "ORD-20240512-0087",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "eb703ee6-c270-4d8c-8a0c-1c34ceda6e97",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "01dbd49b-9036-41a3-862e-f8fde0ccedbb",
+        "delivery_id": "828f1575-ee9c-4772-9350-d453b1dec329",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "4f05d765-1e60-4b18-8bd9-a51467531a3c"
+      }
+    ],
+    "payment": [
+      {
+        "id": "472c397f-55f4-4d3d-84cf-9852b9f1080f",
+        "order_id": "4f05d765-1e60-4b18-8bd9-a51467531a3c",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-087",
+        "external_id": "EXTPAY-9517",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473934"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "54ee81bd-0bf8-482d-9019-2015a5c57c75",
+        "order_id": "4f05d765-1e60-4b18-8bd9-a51467531a3c"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "12ee4179-40a7-4667-9544-f2bd0e604eb0",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "9842d334-d992-42cf-827a-feba7387fe1b",
+      "order_number": "ORD-20240512-0088",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "ed407f9f-5115-4d8b-84b8-923f52ac4ac6",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "c6ef8f21-2d08-41cd-850b-827da2b3b239",
+        "delivery_id": "78688e13-daaf-4986-a3bf-a26d5c02589e",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "12ee4179-40a7-4667-9544-f2bd0e604eb0"
+      }
+    ],
+    "payment": [
+      {
+        "id": "65ede2d4-1d2c-434c-87df-2417be2da0a2",
+        "order_id": "12ee4179-40a7-4667-9544-f2bd0e604eb0",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-088",
+        "external_id": "EXTPAY-9518",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473935"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "5a0749ba-7d78-4f03-b9d6-dcb43607f6da",
+        "order_id": "12ee4179-40a7-4667-9544-f2bd0e604eb0"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "d6c59f71-e001-4beb-9632-b3dfb7278894",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "a5d1911b-6773-4865-8460-719f7f5524ba",
+      "order_number": "ORD-20240512-0089",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "1730c6d7-ec21-4869-97db-23d6991792b4",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "09dc2035-c5de-4085-a4dd-422ecd199617",
+        "delivery_id": "539b3def-f664-4c22-a0cc-0a5cbd67f99c",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "d6c59f71-e001-4beb-9632-b3dfb7278894"
+      }
+    ],
+    "payment": [
+      {
+        "id": "6f76d45b-9b80-4d12-9e55-a75e01864546",
+        "order_id": "d6c59f71-e001-4beb-9632-b3dfb7278894",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-089",
+        "external_id": "EXTPAY-9519",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473936"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "e6286e19-266d-4011-8e5a-9a216f075c64",
+        "order_id": "d6c59f71-e001-4beb-9632-b3dfb7278894"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "b78c76c9-d594-4a51-a840-e7ca95edaeff",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "60d8f129-d1b6-4856-b39e-1c5e4042bf34",
+      "order_number": "ORD-20240512-0090",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "ae6b112b-4c30-42ac-a457-e35e626acc4e",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "92f5e29b-79a2-46c9-be09-7186288614c9",
+        "delivery_id": "543ad234-7a3a-4ab7-9f96-36ce422d07d7",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "b78c76c9-d594-4a51-a840-e7ca95edaeff"
+      }
+    ],
+    "payment": [
+      {
+        "id": "8e63f336-2b24-4019-91f4-5a4ee3bde444",
+        "order_id": "b78c76c9-d594-4a51-a840-e7ca95edaeff",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-090",
+        "external_id": "EXTPAY-9520",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473937"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "096472bf-36ed-40c4-9cf4-8e3e617e7e91",
+        "order_id": "b78c76c9-d594-4a51-a840-e7ca95edaeff"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "14766022-ae4f-49f2-a5f9-617cf463c517",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "7b99ec76-541d-4e17-8ae7-40549a177d1f",
+      "order_number": "ORD-20240512-0091",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "ded09328-865e-48e6-a13f-62acf60fa8ee",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "087ef414-37b6-47ee-9de7-882026aee9cc",
+        "delivery_id": "a467d7da-40a0-423a-87aa-4728a660b34f",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "14766022-ae4f-49f2-a5f9-617cf463c517"
+      }
+    ],
+    "payment": [
+      {
+        "id": "a1d68245-7ab4-4c63-8b49-854a9586ded6",
+        "order_id": "14766022-ae4f-49f2-a5f9-617cf463c517",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-091",
+        "external_id": "EXTPAY-9521",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473938"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "ba1f282c-6f0e-42d3-929b-e4128d848e26",
+        "order_id": "14766022-ae4f-49f2-a5f9-617cf463c517"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "228deeba-75d7-44b6-bef8-412e30282c0d",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "086408a8-a69e-41af-af28-4122d2cb2f93",
+      "order_number": "ORD-20240512-0092",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "58639bc2-e800-4c0c-a9fd-16595a709619",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "62cc12d3-0912-4b5d-80be-60b292be8397",
+        "delivery_id": "c5027f17-7597-4d72-93e8-1033f1153b8d",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "228deeba-75d7-44b6-bef8-412e30282c0d"
+      }
+    ],
+    "payment": [
+      {
+        "id": "27203606-e062-4d88-8b33-963bab1e82fd",
+        "order_id": "228deeba-75d7-44b6-bef8-412e30282c0d",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-092",
+        "external_id": "EXTPAY-9522",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473939"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "75393740-3a94-4a03-964d-256662b98e88",
+        "order_id": "228deeba-75d7-44b6-bef8-412e30282c0d"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "8bedfeaa-effb-4177-9376-e30c0d16e5bf",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "b3664975-ce43-4f26-918e-98435f43a598",
+      "order_number": "ORD-20240512-0093",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "45288187-63b6-4e29-9774-aee1f404a4d4",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "01277e2a-677d-44b1-a09c-445e74293b1e",
+        "delivery_id": "5845987a-baf2-4efa-a1af-20be9d5cfbfc",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "8bedfeaa-effb-4177-9376-e30c0d16e5bf"
+      }
+    ],
+    "payment": [
+      {
+        "id": "f7996b15-f241-43eb-95b5-bb94ce302d4b",
+        "order_id": "8bedfeaa-effb-4177-9376-e30c0d16e5bf",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-093",
+        "external_id": "EXTPAY-9523",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473940"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "87785058-748c-4fbd-bc0e-0bb8299e7246",
+        "order_id": "8bedfeaa-effb-4177-9376-e30c0d16e5bf"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "899d724e-c6f2-4e7e-a5c2-2cdc887a690e",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "29b3f01b-0f8c-4581-82f7-1a27c2e2fff3",
+      "order_number": "ORD-20240512-0094",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "dc861491-a619-492c-8247-2eadf1afda52",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "3633376b-4906-4cf3-adae-1ff06218b2ff",
+        "delivery_id": "0e0df204-21e0-46ff-a94f-1d00e0badea9",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "899d724e-c6f2-4e7e-a5c2-2cdc887a690e"
+      }
+    ],
+    "payment": [
+      {
+        "id": "3aa67580-17d5-4e86-950e-2feabcc754a9",
+        "order_id": "899d724e-c6f2-4e7e-a5c2-2cdc887a690e",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-094",
+        "external_id": "EXTPAY-9524",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473941"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "bd20b8f0-8f14-42bb-a91b-527116ae3420",
+        "order_id": "899d724e-c6f2-4e7e-a5c2-2cdc887a690e"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "326ec01d-e24b-4acd-9b80-ad238dc17f05",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "a491acb6-2fe0-45d3-8d8a-7eb3a72e0f2d",
+      "order_number": "ORD-20240512-0095",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "412326ee-c888-4b87-9658-c7b25e824087",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "b68bd8fa-282c-452b-a377-d0f138184657",
+        "delivery_id": "da9bb393-6041-4924-8669-cd98a23a2320",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "326ec01d-e24b-4acd-9b80-ad238dc17f05"
+      }
+    ],
+    "payment": [
+      {
+        "id": "f995e0e5-d38b-443e-a16a-a9b4eba3f26c",
+        "order_id": "326ec01d-e24b-4acd-9b80-ad238dc17f05",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-095",
+        "external_id": "EXTPAY-9525",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473942"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "3127fd70-3fe1-4e2e-9d6d-ce8bba352ca7",
+        "order_id": "326ec01d-e24b-4acd-9b80-ad238dc17f05"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "d5e94225-b33d-453d-91e5-91edc160b756",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "39bc997d-4de8-434e-a018-fdf8d8ba5e22",
+      "order_number": "ORD-20240512-0096",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "48f9e6e6-b7ee-4710-b23f-b8c79cdc7bda",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "3633777f-6fdd-4af9-9d46-81d97a699ec5",
+        "delivery_id": "74dee695-2e72-447a-8350-b1005d009679",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "d5e94225-b33d-453d-91e5-91edc160b756"
+      }
+    ],
+    "payment": [
+      {
+        "id": "41cf9c06-709b-45c0-8fe8-a797b906b453",
+        "order_id": "d5e94225-b33d-453d-91e5-91edc160b756",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-096",
+        "external_id": "EXTPAY-9526",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473943"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "3bb9f7f6-63ca-45a1-add6-4bd20dca19f6",
+        "order_id": "d5e94225-b33d-453d-91e5-91edc160b756"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "4fa0b430-bf05-45de-91f1-9f8a528f989a",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "a3b43991-4698-4c44-95a5-b43758e410d2",
+      "order_number": "ORD-20240512-0097",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "8296c8cb-f0a6-4897-a210-3fc688f24c44",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "31d097f2-924d-4636-9fe8-5a0d108226ed",
+        "delivery_id": "cc87e556-1ebf-4c4a-8bbf-86cbd6d2f7c3",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "4fa0b430-bf05-45de-91f1-9f8a528f989a"
+      }
+    ],
+    "payment": [
+      {
+        "id": "c3b12527-8763-471b-91ec-fa53f745e421",
+        "order_id": "4fa0b430-bf05-45de-91f1-9f8a528f989a",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-097",
+        "external_id": "EXTPAY-9527",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473944"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "04f1e7ac-2d38-4ccd-a4f6-cd2b98b09c69",
+        "order_id": "4fa0b430-bf05-45de-91f1-9f8a528f989a"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "1361d6b0-d44c-41ad-aa97-9ca527480f7f",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "71cdcf6a-3e08-4469-81a7-08a2ec8718f7",
+      "order_number": "ORD-20240512-0098",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "86cd1125-3827-43b8-a6a5-f9e6332ef842",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "c0635b93-5226-4611-af35-b2041ced4c96",
+        "delivery_id": "0f45285d-39da-414d-b15a-1e0c0e040169",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "1361d6b0-d44c-41ad-aa97-9ca527480f7f"
+      }
+    ],
+    "payment": [
+      {
+        "id": "c34fc0d4-ceef-4743-8d07-7d2d139c02ee",
+        "order_id": "1361d6b0-d44c-41ad-aa97-9ca527480f7f",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-098",
+        "external_id": "EXTPAY-9528",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473945"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "69fb3505-ab36-44db-962a-23efacf6eed2",
+        "order_id": "1361d6b0-d44c-41ad-aa97-9ca527480f7f"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "e072ed0c-6907-4d78-a83b-29197ea03981",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "59683e34-1410-4ba7-aacf-cf6551d4dd33",
+      "order_number": "ORD-20240512-0099",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "f90ba3f5-64d0-43e7-ad88-894dddcd7bb9",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "54ea45c6-49e6-44b0-ad8c-b5a1cb50bc24",
+        "delivery_id": "4262758d-7866-4427-8020-4755c130a6ac",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "e072ed0c-6907-4d78-a83b-29197ea03981"
+      }
+    ],
+    "payment": [
+      {
+        "id": "dd6ef760-1070-4190-8e83-1adec0cb2fb9",
+        "order_id": "e072ed0c-6907-4d78-a83b-29197ea03981",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-099",
+        "external_id": "EXTPAY-9529",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473946"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "401293d6-33ac-4b42-b013-20388bda9f04",
+        "order_id": "e072ed0c-6907-4d78-a83b-29197ea03981"
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": "e5dfcc86-952d-4fdd-a808-f357d21ec6ec",
+      "type": "delivery",
+      "status": "processing",
+      "city": "Almaty",
+      "subdivision": "Bostandyk",
+      "price": 100.0,
+      "platform": "web",
+      "general_id": "22855673-31aa-425f-9d46-67686a123041",
+      "order_number": "ORD-20240512-0100",
+      "executor": "dispatcher-13",
+      "created_at": "2025-05-12T10:21:00Z",
+      "updated_at": "2025-05-12T10:22:10Z"
+    },
+    "items": [
+      {
+        "product_id": "ee95b37d-a099-4fac-9d4f-ad2d44bda966",
+        "external_id": "EXT-001",
+        "status": "reserved",
+        "base_price": 15000.0,
+        "price": 14500.0,
+        "earned_bonuses": 150.0,
+        "spent_bonuses": 0.0,
+        "gift": false,
+        "owner_id": "6933d95c-f554-4d9d-abe0-a627d794ab8e",
+        "delivery_id": "8c8c606f-225c-4e65-beeb-fbf7098b66b5",
+        "shop_assistant": "manager-1",
+        "warehouse": "WH-002",
+        "order_id": "e5dfcc86-952d-4fdd-a808-f357d21ec6ec"
+      }
+    ],
+    "payment": [
+      {
+        "id": "20da81d6-6264-40dc-b4df-5e1efddcbe55",
+        "order_id": "e5dfcc86-952d-4fdd-a808-f357d21ec6ec",
+        "type": "card_online",
+        "sum": 19500.0,
+        "payed": true,
+        "info": "Kaspi QR",
+        "contract_number": "CNTR-20240512-100",
+        "external_id": "EXTPAY-9530",
+        "credit_data": null,
+        "card_payment_data": {
+          "provider": "Kaspi",
+          "transaction_id": "TXN-38473947"
+        }
+      }
+    ],
+    "history": [
+      {
+        "type": "status_change",
+        "type_id": 1,
+        "old_value": "eyJzdGF0dXMiOiAibmV3In0=",
+        "value": "eyJzdGF0dXMiOiAicHJvY2Vzc2luZyJ9",
+        "date": "2025-05-12T10:21:05Z",
+        "user_id": "05112684-3654-4c93-9be5-9af104cfac53",
+        "order_id": "e5dfcc86-952d-4fdd-a808-f357d21ec6ec"
+      }
+    ]
+  }
+]
