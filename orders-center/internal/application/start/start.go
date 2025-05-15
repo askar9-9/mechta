@@ -13,7 +13,6 @@ import (
 	ordereno1c "orders-center/internal/service/order_eno_1c/service"
 )
 
-// RunHTTP запускает HTTP сервер с graceful shutdown
 func RunHTTP(cfg *config.Config, svc v1.OrderService) grace.Service {
 	server := &http.Server{
 		Addr:    cfg.HTTP.Addr,
@@ -33,7 +32,6 @@ func RunHTTP(cfg *config.Config, svc v1.OrderService) grace.Service {
 	})
 }
 
-// RunOrderEnoService запускает order_eno_1c как background сервис с поддержкой shutdown
 func RunOrderEnoService(
 	cfg *config.Config,
 	oneCClient *client.OneCClient,
@@ -63,7 +61,6 @@ func RunOrderEnoService(
 		fmt.Println("Shutting down OrderEno1cService...")
 		cancel()
 
-		// Ждем завершения в пределах контекста
 		select {
 		case <-shutdownCtx.Done():
 			return shutdownCtx.Err()
