@@ -46,8 +46,12 @@ type OneCConfig struct {
 }
 
 type WorkerPoolConfig struct {
-	NumWorkers int `env:"WORKER_POOL_SIZE" envDefault:"10"`
-	QueueSize  int `env:"WORKER_POOL_QUEUE_SIZE" envDefault:"100"`
+	NumWorkers      int           `env:"WORKER_POOL_SIZE" envDefault:"10"`
+	QueueSize       int           `env:"WORKER_POOL_QUEUE_SIZE" envDefault:"100"`
+	DefaultTimeout  time.Duration `env:"WORKER_POOL_DEFAULT_TIMEOUT" envDefault:"5s"`
+	MaxRetries      int           `env:"WORKER_POOL_MAX_RETRIES" envDefault:"3"`
+	RetryBackoff    time.Duration `env:"WORKER_POOL_RETRY_BACKOFF" envDefault:"500ms"`
+	ShutdownTimeout time.Duration `env:"WORKER_POOL_SHUTDOWN_TIMEOUT" envDefault:"10s"`
 }
 
 type CronConfig struct {

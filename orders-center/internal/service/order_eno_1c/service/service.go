@@ -8,7 +8,7 @@ import (
 	"orders-center/internal/delivery/client"
 	outbox "orders-center/internal/domain/outbox/entity"
 	"orders-center/internal/pkg/tx"
-	eno "orders-center/internal/service/order_eno_1c/entity"
+	cron "orders-center/internal/service/cron/entity"
 	"time"
 )
 
@@ -75,17 +75,40 @@ func (s *OrderEno1cService) process(ctx context.Context) error {
 	}
 
 	for _, msg := range messages {
-		task := eno.NewTask(
-			s.oneCClient,
-			msg,
+		task := cron.NewBaseJob(
+			msg.ID.String(),
+
+			// Task processing
+			func(ctx context.Context) error {
+				if err := s.oneCClient.SendMessage(ctx, msg); err != nil {
+					return fmt.Errorf("failed to send message: %w", err)
+				}
+				return nil
+			},
+
+			// Success handling
 			func(ctx context.Context) error {
 				return s.txManager.Do(ctx, func(ctx context.Context) error {
+					msg.SetProcessedAt()
+
+					if err := s.outboxSvc.UpdateSingle(ctx, msg); err != nil {
+						return fmt.Errorf("failed to update message: %w", err)
+					}
+					return nil
+				})
+			},
+
+			// Error handling
+			func(ctx context.Context, err error) error {
+				return s.txManager.Do(ctx, func(ctx context.Context) error {
+					msg.SetError(err)
 					if err := s.outboxSvc.UpdateSingle(ctx, msg); err != nil {
 						return fmt.Errorf("failed to update message: %w", err)
 					}
 					return nil
 				})
 			})
+
 		if err := s.cronSvc.Submit(ctx, task); err != nil {
 			return fmt.Errorf("failed to submit task: %w", err)
 		}

@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"orders-center/internal/domain/outbox/entity"
-	"orders-center/internal/service/cron"
+	"orders-center/internal/service/cron/service"
 )
 
 type OutboxService interface {
@@ -13,7 +13,7 @@ type OutboxService interface {
 }
 
 type CronService interface {
-	Submit(ctx context.Context, job cron.Job) error
+	Submit(ctx context.Context, job service.Job) error
 }
 
 type OneCClient interface {

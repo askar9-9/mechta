@@ -19,7 +19,7 @@ import (
 	paymentrepo "orders-center/internal/domain/payment/repository"
 	paymentsvc "orders-center/internal/domain/payment/service"
 	"orders-center/internal/infrastructure/db/pgxtx"
-	"orders-center/internal/service/cron"
+	"orders-center/internal/service/cron/service"
 	orderfullsvc "orders-center/internal/service/orderfull/service"
 	"time"
 )
@@ -72,7 +72,7 @@ func Run() {
 	// HTTP server
 	httpService := start.RunHTTP(cfg, orderFullService)
 
-	cronService := cron.NewWorkerPool(cfg)
+	cronService := service.NewWorkerPool(cfg)
 	cronService.Start()
 
 	cronGracefulService := grace.NewService("cron", func(ctx context.Context) error {
