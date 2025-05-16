@@ -5,6 +5,7 @@ import (
 	"errors"
 	"log/slog"
 	"orders-center/internal/application/config"
+	"runtime/debug"
 	"sync"
 	"time"
 )
@@ -38,6 +39,19 @@ func (w *WorkerPool) Start() {
 
 func (w *WorkerPool) worker(id int) {
 	defer w.wg.Done()
+	defer func() {
+		if r := recover(); r != nil {
+			stackTrace := debug.Stack()
+			slog.Error("Worker panic recovered",
+				"id", id,
+				"error", r,
+				"stack", string(stackTrace))
+
+			// Restart the worker
+			w.wg.Add(1)
+			go w.worker(id)
+		}
+	}()
 
 	slog.Info("Worker started", "id", id)
 	for {
