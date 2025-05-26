@@ -55,7 +55,6 @@ func (s *OrderEno1cService) Start(ctx context.Context) error {
 }
 
 func (s *OrderEno1cService) Stop(ctx context.Context) error {
-	ctx.Done()
 	return nil
 }
 

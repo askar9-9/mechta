@@ -50,6 +50,12 @@ func RunOrderEnoService(
 	ctx, cancel := context.WithCancel(context.Background())
 
 	go func() {
+		defer func() {
+			if r := recover(); r != nil {
+				fmt.Printf("Recovered from panic in OrderEno1cService: %v\n", r)
+			}
+		}()
+
 		fmt.Println("OrderEno1cService started")
 		if err := svc.Start(ctx); err != nil && !errors.Is(err, context.Canceled) {
 			fmt.Printf("OrderEno1cService error: %v\n", err)
